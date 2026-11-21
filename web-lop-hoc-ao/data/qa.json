@@ -1,0 +1,1939 @@
+[
+{
+"c": "c01",
+"q": "Môn Khoa học Trái Đất có mã môn và bao nhiêu tín chỉ?",
+"a": "<p>Môn <b>Khoa học Trái Đất (Earth Science)</b> có mã <b>GE1013</b>, <b>4 tín chỉ</b>, do <b>Khoa Kỹ thuật Địa chất và Dầu khí</b> phụ trách.</p>",
+"k": "GE1013 tín chỉ mã môn khoa phụ trách",
+"alt": [
+"GE1013 là môn gì",
+"môn học mấy tín chỉ"
+]
+},
+{
+"c": "c01",
+"q": "Môn học được đánh giá gồm những phần nào?",
+"a": "<p>Đánh giá gồm 3 phần:</p><ul><li><b>Trên lớp</b>: lý thuyết, bài tập lớn (dạng TikTok), thảo luận.</li><li><b>Thí nghiệm trong phòng</b> (3 buổi).</li><li><b>Thực tập ngoài trời</b> (3 ngày 2 đêm).</li></ul>",
+"k": "đánh giá cấu trúc môn trên lớp thí nghiệm thực tập",
+"alt": [
+"môn học gồm mấy phần"
+]
+},
+{
+"c": "c01",
+"q": "Cách tính điểm môn Khoa học Trái Đất như thế nào?",
+"a": "<p>Theo slide giới thiệu:</p><ul><li><b>Quá trình 20%</b>: phát biểu 3, bài tập lớn (TikTok) 5, bài LMS 12.</li><li><b>Thí nghiệm 20%</b>: chuyên cần 4, bài tập 4, kiểm tra 12.</li><li><b>Thi cuối kỳ 60%</b>: thực tập 30 (thực địa 28 gồm nghiệm thu 16,8, kiểm tra 15 phút 5,6, báo cáo 5,6; bảo tàng 2) và thi 30.</li></ul>",
+"k": "điểm tỉ lệ phần trăm quá trình thí nghiệm thi cuối kỳ trọng số",
+"alt": [
+"tỉ lệ điểm",
+"điểm thi cuối kỳ chiếm bao nhiêu",
+"điểm quá trình gồm gì"
+]
+},
+{
+"c": "c01",
+"q": "Thí nghiệm trong phòng gồm những buổi nào?",
+"a": "<p>3 buổi × 4 tiết:</p><ul><li><b>Buổi 1</b>: mặt cắt địa hình và nhận biết khoáng vật, đá quý → học kỹ Chương 2A.</li><li><b>Buổi 2</b>: nhận biết đá magma và đá trầm tích → học kỹ Chương 5, 6.</li><li><b>Buổi 3</b>: kỹ năng đi thực địa, ôn tập và kiểm tra.</li></ul>",
+"k": "thí nghiệm buổi 1 buổi 2 buổi 3 phòng thí nghiệm",
+"alt": [
+"thí nghiệm học gì",
+"buổi thí nghiệm"
+]
+},
+{
+"c": "c01",
+"q": "Thực tập ngoài trời đi đâu, bao lâu?",
+"a": "<p>Thực tập ngoài trời kéo dài <b>3 ngày 2 đêm</b>. Các học kỳ gần đây có 2 lựa chọn: <b>TP.HCM – Vũng Tàu – Phan Thiết</b> hoặc <b>TP.HCM – Vũng Tàu</b>.</p>",
+"k": "thực tập thực địa ngoài trời Vũng Tàu Phan Thiết",
+"alt": [
+"đi thực địa ở đâu"
+]
+},
+{
+"c": "c01",
+"q": "Môn học gồm những mảng kiến thức nào?",
+"a": "<p>Các mảng chính: cấu tạo Trái Đất, khoáng vật và đá quý, kiến tạo mảng, núi lửa, ba nhóm đá, phong hoá, biến dạng vỏ, niên đại địa chất, nước mặt và nước dưới đất, trượt lở, khí quyển và khí hậu, biến đổi khí hậu và tài nguyên, kinh tế tuần hoàn. Slide còn nhắc \"Địa hình và công cụ giám sát Trái Đất\" nhưng chưa có file bài giảng riêng.</p>",
+"k": "bản đồ kiến thức nội dung môn học các chương",
+"alt": [
+"học những chương nào",
+"nội dung môn học"
+]
+},
+{
+"c": "c02b",
+"q": "Trái Đất bao nhiêu tuổi?",
+"a": "<p>Khoảng <b>4,6 tỷ năm</b>. Trong bài Cấu tạo Trái Đất, mốc này gắn với sự kiện một hành tinh cỡ Sao Hoả va vào Trái Đất tạo ra Mặt Trăng. Bài Niên đại địa chất cũng kết luận Trái Đất ít nhất 4,6 tỷ năm dựa trên thiên thạch và đá Mặt Trăng.</p>",
+"k": "tuổi Trái Đất 4,6 tỷ năm",
+"alt": [
+"tuổi của Trái Đất"
+]
+},
+{
+"c": "c02b",
+"q": "Trái Đất hình thành như thế nào?",
+"a": "<p>Theo slide (7 bước):</p><ol><li>Các hạt vật chất tập hợp lại do lực hấp dẫn.</li><li>Một hành tinh cỡ Sao Hoả va vào Trái Đất ~4,6 tỷ năm trước, tạo Mặt Trăng.</li><li>Sắt nóng chảy và chìm vào trong.</li><li>Vật chất nhẹ hơn tập trung gần bề mặt.</li><li>Vỏ và manti chủ yếu là khoáng vật silicat.</li><li>Lõi gồm Fe và Ni: lõi ngoài lỏng, lõi trong rắn.</li><li>Bên trong nóng hơn bề mặt.</li></ol>",
+"k": "hình thành Trái Đất sự hình thành Mặt Trăng va chạm",
+"alt": [
+"sự hình thành Trái Đất",
+"Mặt Trăng hình thành thế nào"
+]
+},
+{
+"c": "c02b",
+"q": "Cấu trúc bên trong Trái Đất gồm những lớp nào?",
+"a": "<ul><li><b>Vỏ</b>: mỏng, mật độ thấp, ~1% thể tích.</li><li><b>Thạch quyển</b> (~0–100 km): rắn, giòn, gồm vỏ + phần trên cùng manti.</li><li><b>Quyển mềm</b> (~100–350 km): nóng, mềm, rắn dẻo.</li><li><b>Manti dưới</b>: rắn do áp suất cao; manti chiếm ~84% thể tích.</li><li><b>Nhân ngoài</b> (~2900–5155 km): <b>lỏng</b>.</li><li><b>Nhân trong</b> (~5155–6371 km): Fe-Ni <b>rắn</b>. Nhân chiếm ~15% thể tích.</li></ul>",
+"k": "các lớp cấu tạo vỏ manti nhân lõi độ sâu",
+"alt": [
+"Trái Đất có mấy lớp",
+"cấu tạo Trái Đất"
+]
+},
+{
+"c": "c02b",
+"q": "Vì sao nhân trong rắn dù nóng hơn nhân ngoài?",
+"a": "<p>Vì <b>áp suất cực lớn</b> ở tâm Trái Đất. Áp suất cao làm nhiệt độ nóng chảy của Fe-Ni tăng lên vượt nhiệt độ thực tế, nên nhân trong vẫn rắn. Nhân ngoài áp suất thấp hơn nên ở trạng thái lỏng.</p>",
+"k": "nhân trong rắn áp suất nhân ngoài lỏng",
+"alt": [
+"tại sao lõi trong rắn"
+]
+},
+{
+"c": "c02b",
+"q": "Thạch quyển và quyển mềm khác nhau thế nào?",
+"a": "<p><b>Thạch quyển</b> (~0–100 km) gồm vỏ và phần trên cùng của manti, <b>rắn và giòn</b>; đây chính là các \"mảng\" kiến tạo. <b>Quyển mềm</b> (~100–350 km) nằm bên dưới, <b>nóng, mềm, rắn dẻo</b>; các mảng \"nổi\" và trượt trên quyển mềm.</p>",
+"k": "thạch quyển quyển mềm lithosphere asthenosphere",
+"alt": [
+"thạch quyển là gì",
+"quyển mềm là gì"
+]
+},
+{
+"c": "c02b",
+"q": "Dựa vào đâu để biết cấu trúc bên trong Trái Đất?",
+"a": "<p>Dựa vào <b>thành phần hoá học</b>, <b>tính chất vật lý</b>, <b>sóng địa chấn</b> từ động đất và <b>thiên thạch</b> (ví dụ thiên thạch sắt – niken là \"mẫu vật\" của lõi hành tinh).</p>",
+"k": "sóng địa chấn thiên thạch xác định cấu trúc",
+"alt": [
+"làm sao biết bên trong Trái Đất",
+"sóng địa chấn"
+]
+},
+{
+"c": "c02b",
+"q": "Vỏ, manti và nhân chiếm bao nhiêu phần trăm thể tích Trái Đất?",
+"a": "<p>Vỏ ~<b>1%</b>, manti ~<b>84%</b>, nhân ~<b>15%</b>. Hình dung như quả trứng luộc: vỏ trứng mỏng, lòng trắng dày, lòng đỏ ở giữa.</p>",
+"k": "thể tích phần trăm vỏ manti nhân",
+"alt": []
+},
+{
+"c": "c02b",
+"q": "Ba nhóm đá chính trong vỏ Trái Đất là gì?",
+"a": "<ul><li><b>Đá magma</b>: magma nóng chảy nguội đi.</li><li><b>Đá trầm tích</b>: mảnh vụn lắng đọng, được xi măng gắn kết; hoặc do kết tủa.</li><li><b>Đá biến chất</b>: đá có trước bị biến đổi bởi nhiệt độ, áp suất, phản ứng hoá học.</li></ul>",
+"k": "ba loại đá magma trầm tích biến chất nhóm đá",
+"alt": [
+"có mấy loại đá"
+]
+},
+{
+"c": "c02a",
+"q": "Khoáng vật là gì?",
+"a": "<p>Khoáng vật phải thoả <b>5 điều kiện</b>:</p><ol><li>Chất <b>rắn kết tinh</b> (cấu trúc xác định).</li><li><b>Nguồn gốc tự nhiên</b>.</li><li>Chất <b>vô cơ</b>.</li><li><b>Thành phần hoá học xác định</b>.</li><li><b>Tính chất hoá lý</b> nhất định.</li></ol>",
+"k": "định nghĩa khoáng vật 5 điều kiện",
+"alt": [
+"định nghĩa khoáng vật",
+"điều kiện để là khoáng vật"
+]
+},
+{
+"c": "c02a",
+"q": "Vì sao thuỷ tinh không phải là khoáng vật?",
+"a": "<p>Thuỷ tinh là chất rắn <b>vô định hình</b> (không có cấu trúc tinh thể), nên không thoả điều kiện \"rắn kết tinh\", dù có cùng thành phần SiO₂ như thạch anh. Thạch anh kết tinh nên là khoáng vật.</p>",
+"k": "thuỷ tinh vô định hình thạch anh SiO2",
+"alt": [
+"thủy tinh có phải khoáng vật không"
+]
+},
+{
+"c": "c02a",
+"q": "Kim cương và than chì giống và khác nhau thế nào?",
+"a": "<p>Giống: cùng thành phần <b>carbon</b>. Khác: <b>cấu trúc tinh thể</b> khác nhau, nên là hai khoáng vật khác nhau với tính chất khác hẳn: kim cương cứng nhất (Mohs 10), than chì (graphite) rất mềm, dùng làm ruột bút chì.</p>",
+"k": "kim cương than chì graphite carbon cấu trúc",
+"alt": [
+"graphite và kim cương"
+]
+},
+{
+"c": "c02a",
+"q": "Kim cương nhân tạo có phải khoáng vật không?",
+"a": "<p>Không. Kim cương (hay thạch anh) nhân tạo không thoả điều kiện <b>nguồn gốc tự nhiên</b>, nên theo định nghĩa không phải khoáng vật dù cấu trúc giống.</p>",
+"k": "nhân tạo tự nhiên kim cương nhân tạo",
+"alt": []
+},
+{
+"c": "c02a",
+"q": "Thang độ cứng Mohs gồm những khoáng vật nào?",
+"a": "<p>Từ mềm đến cứng: <b>1 Talc – 2 Gypsum (thạch cao) – 3 Calcite – 4 Fluorite – 5 Apatite – 6 Orthoclase – 7 Thạch anh – 8 Topaz – 9 Corundum – 10 Kim cương</b>. Độ cứng đo bằng cách vạch so sánh: khoáng vật cứng hơn vạch xước được khoáng vật mềm hơn.</p>",
+"k": "Mohs độ cứng talc gypsum calcite fluorite apatite orthoclase thạch anh topaz corundum kim cương",
+"alt": [
+"thang Mohs",
+"độ cứng khoáng vật",
+"khoáng vật cứng nhất",
+"độ cứng của thạch anh",
+"thạch anh cứng bao nhiêu",
+"kim cương độ cứng"
+]
+},
+{
+"c": "c02a",
+"q": "Màu vết vạch là gì, vì sao tin cậy hơn màu sắc?",
+"a": "<p>Màu vết vạch là <b>màu của bột khoáng vật</b> khi vạch lên đĩa sứ không tráng men. Một khoáng vật có thể có nhiều màu (do tạp chất) nhưng vết vạch thường <b>không đổi</b>, nên tin cậy hơn. Ví dụ: calcite vạch trắng, pyrite vạch đen, hematite vạch đỏ.</p>",
+"k": "vết vạch màu vết vạch đĩa sứ pyrite hematite calcite",
+"alt": [
+"vết vạch"
+]
+},
+{
+"c": "c02a",
+"q": "Làm sao phân biệt vàng thật và pyrite?",
+"a": "<p>Màu sắc gần giống nhau nên không dùng được. Hãy vạch lên đĩa sứ: <b>pyrite cho vết vạch đen</b>. Pyrite còn có dạng tinh thể <b>lập phương</b> và ánh kim.</p>",
+"k": "vàng pyrite vàng của kẻ ngốc phân biệt",
+"alt": [
+"phân biệt pyrite"
+]
+},
+{
+"c": "c02a",
+"q": "Ánh của khoáng vật gồm những loại nào?",
+"a": "<p>Ánh là ánh sáng phản xạ trên bề mặt khoáng vật: <b>ánh kim</b> (pyrite) và <b>ánh phi kim</b>, gồm ánh thuỷ tinh (thạch anh), ánh mỡ (chalcedony), ánh ngọc (barite), ánh tơ (gypsum), ánh đất (kaolinite).</p>",
+"k": "ánh kim ánh phi kim ánh thuỷ tinh ánh mỡ ánh tơ ánh đất",
+"alt": [
+"ánh khoáng vật"
+]
+},
+{
+"c": "c02a",
+"q": "Cát khai và vết vỡ khác nhau thế nào?",
+"a": "<p><b>Cát khai</b>: khoáng vật vỡ theo <b>hệ thống mặt phẳng</b> do cấu trúc tinh thể; có 5 mức từ rất hoàn toàn đến rất không hoàn toàn, có số phương và góc cát khai. <b>Vết vỡ</b>: bề mặt khi vỡ <b>không theo cát khai</b>, ví dụ thạch anh vỡ vỏ sò, hematite vỡ không phẳng, serpentine vỡ dạng sợi.</p>",
+"k": "cát khai vết vỡ vỏ sò",
+"alt": [
+"cát khai là gì"
+]
+},
+{
+"c": "c02a",
+"q": "Ruby và sapphire khác nhau thế nào?",
+"a": "<p>Cả hai là cùng một khoáng vật <b>corundum</b> (Mohs 9); chỉ khác tạp chất: <b>ruby đỏ do Cr</b>, <b>sapphire lam do Fe + Ti</b>. Đây là ví dụ màu sắc không tin cậy để nhận biết khoáng vật.</p>",
+"k": "ruby sapphire corundum tạp chất màu",
+"alt": []
+},
+{
+"c": "c02a",
+"q": "Khoáng vật nào có từ tính, dùng để làm gì?",
+"a": "<p><b>Magnetite</b> từ tính mạnh (hút kẹp giấy), <b>ilmenite</b> trung bình, <b>biotite</b> yếu. Ứng dụng: dùng <b>nam châm</b> trong quy trình tuyển quặng để tách magnetite, ilmenite khỏi cát.</p>",
+"k": "từ tính magnetite ilmenite nam châm tuyển quặng",
+"alt": [
+"magnetite"
+]
+},
+{
+"c": "c02a",
+"q": "Khoáng vật nào có tính khúc xạ kép?",
+"a": "<p><b>Calcite</b>: đặt mẫu calcite trong suốt lên chữ sẽ thấy chữ <b>nhân đôi</b>. Calcite còn sủi bọt khi nhỏ acid.</p>",
+"k": "khúc xạ kép calcite acid",
+"alt": [
+"calcite"
+]
+},
+{
+"c": "c02a",
+"q": "Khối lượng riêng của khoáng vật chia thế nào?",
+"a": "<p>Nhẹ <b>&lt; 2,5</b>; trung bình <b>2,5–4</b>; nặng <b>&gt; 4 g/cm³</b>. Khoáng vật tạo đá thường nhẹ đến trung bình, khoáng vật quặng thường nặng. Ví dụ: gypsum 2,2; thạch anh 2,65; ilmenite 4,7.</p>",
+"k": "khối lượng riêng tỷ trọng nặng nhẹ",
+"alt": []
+},
+{
+"c": "c02a",
+"q": "Khoáng vật có những ứng dụng gì?",
+"a": "<ul><li>Trang sức (đá quý, đá bán quý; đánh giá theo \"4Cs + 1C\").</li><li>Vật liệu xây dựng, trang trí.</li><li>Vật liệu cách điện, dẫn điện.</li><li>Công nghiệp: nguyên liệu, phụ gia, dược liệu, mỹ phẩm, bột mài, luyện kim, đất hiếm, chất phóng xạ.</li><li>Nông nghiệp: phân bón, cải tạo đất phèn.</li><li>Môi trường: xử lý ô nhiễm.</li></ul><p>Ví dụ: viên Ruby \"Ngôi sao Việt Nam\" 2,7 kg là bảo vật quốc gia.</p>",
+"k": "ứng dụng khoáng vật đá quý trang sức",
+"alt": [
+"khoáng vật dùng để làm gì"
+]
+},
+{
+"c": "c02a",
+"q": "Khoáng vật được phân loại dựa trên những cơ sở nào?",
+"a": "<p>Theo 4 cơ sở: <b>thành phần hoá học</b>, <b>cấu trúc</b>, <b>tính chất</b> và <b>công dụng</b>.</p>",
+"k": "phân loại khoáng vật cơ sở",
+"alt": []
+},
+{
+"c": "c02a",
+"q": "Hình dạng tinh thể của một số khoáng vật?",
+"a": "<p>Pyrite lập phương; fluorite 8 mặt; garnet 12 mặt thoi; thạch anh lăng trụ 6 phương; muscovite dạng vảy lá; malachite chùm nho; calcite chuông nhũ. Tinh thể có dạng đơn (hiếm gặp) và dạng tập hợp.</p>",
+"k": "hình dạng tinh thể lập phương lăng trụ",
+"alt": []
+},
+{
+"c": "c03",
+"q": "Thuyết trôi dạt lục địa của Wegener là gì?",
+"a": "<p>Năm <b>1912</b>, Alfred Wegener cho rằng các lục địa từng là một siêu lục địa <b>Pangaea</b>, bắt đầu tách ra cách đây ~<b>250 triệu năm</b> rồi trôi dạt đến vị trí hiện nay.</p>",
+"k": "Wegener trôi dạt lục địa Pangaea 1912",
+"alt": [
+"Pangaea là gì",
+"Wegener"
+]
+},
+{
+"c": "c03",
+"q": "Wegener đưa ra những bằng chứng nào?",
+"a": "<p>4 bằng chứng:</p><ol><li><b>Sự trùng khớp các lục địa</b> (bờ tây châu Phi khớp bờ đông Nam Mỹ, cả phần thềm lục địa).</li><li><b>Hoá thạch</b>: bò sát biển cổ có ở cả Nam Mỹ và Nam Phi; thực vật rất giống nhau.</li><li><b>Vành đai núi</b>: dãy núi Bắc Mỹ giống dãy núi ở Anh, Na Uy.</li><li><b>Cổ khí hậu</b>: dấu vết sông băng cổ liền khối khi ráp lục địa.</li></ol>",
+"k": "bằng chứng trôi dạt lục địa hoá thạch cổ khí hậu khớp lục địa",
+"alt": [
+"bằng chứng của Wegener"
+]
+},
+{
+"c": "c03",
+"q": "Điểm yếu của thuyết trôi dạt lục địa là gì?",
+"a": "<p>Wegener <b>không giải thích được cơ chế</b> làm lục địa di chuyển. Ông cho là lực ly tâm do Trái Đất quay, nhưng lực này <b>không đủ</b>. Năm <b>1929</b>, Arthur Holmes đề xuất <b>dòng đối lưu nhiệt trong manti</b>, nhưng lúc đó chưa được chú ý.</p>",
+"k": "điểm yếu Wegener cơ chế Holmes đối lưu",
+"alt": [
+"hạn chế thuyết trôi dạt"
+]
+},
+{
+"c": "c03",
+"q": "Thuyết tách giãn đáy đại dương của Hess nói gì?",
+"a": "<p>Đầu thập niên 1960, <b>Harry Hess</b> cho rằng <b>sống núi giữa đại dương</b> là nơi đáy biển tách ra do dòng đối lưu trong manti; vỏ mới tạo ra ở giữa và di chuyển ra hai bên như băng chuyền. Dự đoán (đã được xác nhận): đáy biển <b>trẻ nhất ở sống núi</b>, già dần ra xa; đáy biển già nhất chỉ ~<b>200 triệu năm</b>.</p>",
+"k": "Hess tách giãn đáy đại dương sống núi giữa đại dương",
+"alt": [
+"tách giãn đáy biển"
+]
+},
+{
+"c": "c03",
+"q": "Vì sao đáy đại dương già nhất chỉ khoảng 200 triệu năm?",
+"a": "<p>Vì đáy đại dương liên tục được <b>tạo mới ở sống núi</b> rồi di chuyển ra xa, và phần cũ nhất bị <b>hút chìm</b> trở lại manti ở các đới hút chìm. Nên đáy biển luôn \"trẻ\" hơn nhiều so với lục địa.</p>",
+"k": "đáy đại dương 200 triệu năm tuổi hút chìm",
+"alt": []
+},
+{
+"c": "c03",
+"q": "Mảng kiến tạo là gì, di chuyển nhanh thế nào?",
+"a": "<p>Mảng = <b>vỏ cứng + phần trên cùng của manti</b> (thạch quyển), dày ~<b>100 km</b>, \"nổi\" trên quyển mềm. Mảng di chuyển chậm nhưng liên tục, khoảng <b>5 cm/năm</b>, nhờ <b>dòng đối lưu</b> trong manti.</p>",
+"k": "mảng kiến tạo tốc độ 5 cm năm đối lưu",
+"alt": [
+"mảng di chuyển bao nhiêu",
+"tốc độ mảng"
+]
+},
+{
+"c": "c03",
+"q": "Có bao nhiêu mảng kiến tạo chính?",
+"a": "<p><b>7 mảng chính</b>: Thái Bình Dương, Á-Âu, Bắc Mỹ, Nam Mỹ, Nam Cực, Ấn-Úc, châu Phi. Mảng phụ: Ả Rập, Ấn Độ, Caribbean, Philippine, Scotia, Nazca…</p>",
+"k": "7 mảng chính mảng phụ",
+"alt": [
+"các mảng kiến tạo"
+]
+},
+{
+"c": "c03",
+"q": "Có mấy kiểu ranh giới mảng?",
+"a": "<p>3 kiểu:</p><ul><li><b>Phân kỳ</b>: hai mảng tách xa (sống núi Đại Tây Dương, Biển Đỏ).</li><li><b>Hội tụ</b>: hai mảng va vào nhau (Andes, Nhật Bản, Himalaya).</li><li><b>Trượt bằng</b> (chuyển dạng): trượt ngang qua nhau (đứt gãy San Andreas).</li></ul>",
+"k": "ranh giới mảng phân kỳ hội tụ trượt bằng chuyển dạng",
+"alt": [
+"các kiểu ranh giới mảng"
+]
+},
+{
+"c": "c03",
+"q": "Ranh giới phân kỳ là gì? Cho ví dụ.",
+"a": "<p>Hai mảng <b>tách xa nhau</b>; magma trào lên tạo vỏ mới. Hầu hết nằm dọc <b>sống núi giữa đại dương</b>. Trên lục địa diễn ra theo giai đoạn: rạn nứt lục địa → thung lũng rạn nứt → tạo biển mới → rạn nứt đáy biển. Ví dụ: <b>Biển Đỏ</b> (mảng châu Phi tách khỏi mảng Ả Rập), sống núi Đại Tây Dương.</p>",
+"k": "phân kỳ tách giãn Biển Đỏ sống núi",
+"alt": []
+},
+{
+"c": "c03",
+"q": "Ba loại ranh giới hội tụ khác nhau thế nào?",
+"a": "<ul><li><b>Đại dương – lục địa</b>: mảng đại dương nặng chìm xuống (đới hút chìm), sinh magma → rãnh sâu + cung núi lửa. Ví dụ <b>Andes</b>.</li><li><b>Đại dương – đại dương</b>: một mảng chìm dưới mảng kia → <b>cung đảo</b> núi lửa. Ví dụ <b>Nhật Bản</b>, Aleutian, Tonga, Ryukyu, rãnh Mariana.</li><li><b>Lục địa – lục địa</b>: cả hai nhẹ, không chìm → xô ép, uốn nếp thành dãy núi lớn. Ví dụ <b>Himalaya</b>, Alps, Appalachian.</li></ul>",
+"k": "hội tụ đại dương lục địa hút chìm Andes Nhật Bản Himalaya cung đảo",
+"alt": [
+"hội tụ là gì",
+"đới hút chìm"
+]
+},
+{
+"c": "c03",
+"q": "Vì sao va chạm lục địa – lục địa không tạo đới hút chìm?",
+"a": "<p>Vì cả hai mảng lục địa đều <b>nhẹ</b> (mật độ thấp, granite), không mảng nào chìm xuống được; chúng xô ép, uốn nếp và chồng lên nhau tạo dãy núi lớn như <b>Himalaya</b> (mảng Ấn Độ va mảng Á-Âu).</p>",
+"k": "va chạm lục địa Himalaya không hút chìm",
+"alt": [
+"Himalaya hình thành thế nào"
+]
+},
+{
+"c": "c03",
+"q": "Ranh giới trượt bằng là gì?",
+"a": "<p>Hai mảng <b>trượt ngang qua nhau</b>, thạch quyển <b>không được tạo ra cũng không bị phá huỷ</b>; gây động đất tâm nông. Ví dụ: <b>đứt gãy San Andreas</b> (giữa mảng Bắc Mỹ và Thái Bình Dương), các đoạn đứt gãy cắt ngang sống núi Đại Tây Dương.</p>",
+"k": "trượt bằng chuyển dạng San Andreas transform",
+"alt": [
+"San Andreas"
+]
+},
+{
+"c": "c03",
+"q": "Điểm nóng là gì? Ví dụ Hawaii.",
+"a": "<p>Điểm nóng là vùng núi lửa được nuôi bởi <b>manti nóng bất thường</b>, nằm <b>giữa mảng</b> chứ không ở ranh giới. Mảng trôi qua điểm nóng cố định tạo một chuỗi đảo; ở <b>Hawaii</b>, chỉ Đảo Lớn ở phía đông nam còn núi lửa hoạt động, các đảo càng xa càng già.</p>",
+"k": "điểm nóng hot spot Hawaii",
+"alt": [
+"hot spot"
+]
+},
+{
+"c": "c03",
+"q": "Học thuyết kiến tạo mảng được xây dựng từ những gì?",
+"a": "<p>Kiến tạo mảng = <b>trôi dạt lục địa</b> (Wegener) + <b>tách giãn đáy đại dương</b> (Hess) + <b>địa chấn toàn cầu</b>. Động lực là <b>đối lưu</b> trong manti (truyền nhiệt bằng di chuyển vật chất).</p>",
+"k": "học thuyết kiến tạo mảng nguồn gốc",
+"alt": [
+"kiến tạo mảng là gì"
+]
+},
+{
+"c": "c04",
+"q": "Núi lửa là gì?",
+"a": "<p>Núi lửa là một <b>vết đứt gãy trên lớp vỏ</b> của hành tinh, cho phép <b>dung nham, tro núi lửa và khí</b> thoát ra từ một <b>lò magma</b> bên dưới. Núi lửa thường xuất hiện ở vùng có hoạt động kiến tạo mạnh như ranh giới mảng.</p>",
+"k": "định nghĩa núi lửa",
+"alt": [
+"định nghĩa núi lửa"
+]
+},
+{
+"c": "c04",
+"q": "Các bộ phận của núi lửa gồm những gì?",
+"a": "<p>Lò magma → miệng phun chính (ống dẫn) → miệng phun phụ → miệng núi lửa; cùng với dung nham, tro và bụi, và các lớp vật liệu phun trước đó tạo nên thân núi.</p>",
+"k": "bộ phận núi lửa lò magma miệng phun",
+"alt": [
+"cấu tạo núi lửa"
+]
+},
+{
+"c": "c04",
+"q": "Magma và dung nham khác nhau thế nào?",
+"a": "<p>Cùng là đá nóng chảy, chỉ khác <b>vị trí</b>: <b>magma</b> còn mắc kẹt <b>dưới lòng đất</b>; khi trồi lên mặt đất và chảy như chất lỏng thì gọi là <b>dung nham</b> (lava).</p>",
+"k": "magma dung nham lava khác nhau",
+"alt": [
+"dung nham là gì",
+"magma là gì"
+]
+},
+{
+"c": "c04",
+"q": "Nguyên nhân hình thành núi lửa là gì?",
+"a": "<p>Chủ yếu do <b>kiến tạo mảng</b>, nên núi lửa tập trung ở ranh giới mảng; ngoài ra ở các <b>điểm nóng</b>.</p><ul><li>Phân kỳ: hai mảng tách xa, manti nóng chảy trào lên tạo lò magma.</li><li>Hội tụ: hai mảng cọ xát, nén ép sinh nhiệt làm đất đá nóng chảy.</li></ul><p>Trong lò, vật liệu nở ra làm áp suất tăng; khi thắng áp lực đất đá bên trên thì phun trào qua miệng phun chính.</p>",
+"k": "nguyên nhân núi lửa hình thành phun trào áp suất",
+"alt": [
+"vì sao núi lửa phun",
+"núi lửa hình thành thế nào"
+]
+},
+{
+"c": "c04",
+"q": "Magma được phân loại thế nào trong bài núi lửa?",
+"a": "<p>Theo hàm lượng <b>silica</b> với các mốc 45% – 52% – 63%:</p><ul><li>Siêu mafic (&lt;45%): ~1.500°C, độ nhớt rất thấp.</li><li>Mafic (45–52%): ~1.300°C, thấp.</li><li>Trung tính (52–63%): ~1.000°C, trung bình.</li><li>Acid (&gt;63%): ~700°C, cao.</li></ul>",
+"k": "phân loại magma silica siêu mafic mafic trung tính acid nhiệt độ độ nhớt",
+"alt": [
+"các loại magma"
+]
+},
+{
+"c": "c04",
+"q": "Vì sao núi lửa hình khiên ít phun nổ?",
+"a": "<p>Vì magma mafic, siêu mafic có <b>độ nhớt thấp</b>: khí trong magma thoát ra dễ dàng nên ít phun nổ; dung nham loãng chảy xa trước khi đông nên núi <b>thoải, rộng như cái khiên</b>.</p>",
+"k": "hình khiên ít phun nổ độ nhớt thấp mafic",
+"alt": []
+},
+{
+"c": "c04",
+"q": "Vì sao magma acid dễ gây phun nổ?",
+"a": "<p>Magma acid (và trung tính) có <b>độ nhớt cao</b>: khí bị giữ lại khó thoát, áp suất tích tụ rồi <b>phun nổ</b>. Dung nham đông lại trước khi chảy xa nên tạo <b>núi lửa kết tầng hình chóp</b> dốc.</p>",
+"k": "magma acid phun nổ kết tầng độ nhớt cao",
+"alt": [
+"núi lửa kết tầng"
+]
+},
+{
+"c": "c04",
+"q": "Có những dạng (tướng) núi lửa nào?",
+"a": "<ul><li><b>Hình khiên</b>: lớn, dung nham lỏng thoát ở trung tâm.</li><li><b>Kết tầng</b>: phun nổ dữ dội, dung nham nhớt cao.</li><li><b>Hình vòm</b>: núi kết tầng rất lớn đổ sụp sau phun nổ, còn lại một vòm.</li><li><b>Hình nón</b>: nhỏ, 1 miệng phun, dung nham nhớt cao.</li></ul>",
+"k": "tướng núi lửa hình khiên kết tầng hình vòm hình nón",
+"alt": [
+"các loại núi lửa"
+]
+},
+{
+"c": "c04",
+"q": "Núi lửa có tác động tích cực gì?",
+"a": "<ul><li>Tạo địa hình mới (đồi núi, đồng bằng, vịnh) và môi trường sống mới.</li><li>Bổ sung khoáng chất cho đất, nước, không khí.</li><li>Nguồn <b>năng lượng địa nhiệt</b> tái tạo.</li></ul>",
+"k": "tác động tích cực núi lửa địa nhiệt khoáng chất",
+"alt": [
+"lợi ích của núi lửa"
+]
+},
+{
+"c": "c04",
+"q": "Núi lửa có tác động tiêu cực gì?",
+"a": "<ul><li>Thiệt hại người và tài sản (phun trào, lở đất, sóng thần).</li><li>Ô nhiễm: khí độc, tro bụi.</li><li>Biến đổi khí hậu: <b>SO₂ gây mưa acid</b>; tro bụi che bầu trời làm <b>giảm nhiệt độ</b>.</li></ul>",
+"k": "tác động tiêu cực núi lửa mưa acid tro bụi",
+"alt": [
+"tác hại của núi lửa"
+]
+},
+{
+"c": "c04",
+"q": "Ở Việt Nam có núi lửa không?",
+"a": "<p>Có. Slide nêu <b>núi Giếng Tiền trên đảo Lý Sơn (Quảng Ngãi)</b>: một miệng núi lửa <b>đã ngưng hoạt động từ lâu</b>. Slide cũng dẫn ví dụ núi lửa đang phun: Fagradalsfjall (Iceland, 2021).</p>",
+"k": "Lý Sơn Quảng Ngãi Giếng Tiền núi lửa Việt Nam Fagradalsfjall",
+"alt": [
+"Lý Sơn"
+]
+},
+{
+"c": "c05",
+"q": "Magma gồm những thành phần nào?",
+"a": "<p>3 phần: <b>phần lỏng</b> (melt), <b>chất rắn</b> (khoáng vật silicat đã kết tinh) và <b>chất bốc</b> (khí hoà tan: H₂O, CO₂, SO₂). Nguyên tố phổ biến: Si, Al, Fe, Ca, Mg, K, Na, H, O.</p>",
+"k": "thành phần magma chất bốc melt",
+"alt": [
+"bản chất magma"
+]
+},
+{
+"c": "c05",
+"q": "Độ nhớt của magma phụ thuộc vào gì?",
+"a": "<p>Phụ thuộc <b>thành phần, nhiệt độ và khí</b>: nhiệt độ <b>thấp</b> → nhớt cao; <b>SiO₂ cao</b> (acid) → nhớt cao. Khí trong magma gây phun nổ khi áp suất giảm.</p>",
+"k": "độ nhớt magma SiO2 nhiệt độ",
+"alt": []
+},
+{
+"c": "c05",
+"q": "Magma mafic, trung tính, felsic khác nhau thế nào?",
+"a": "<ul><li><b>Mafic (baz)</b>: SiO₂ ~45–55%, 1000–1200°C, nhiều Fe, Mg, Ca, ít K, Na.</li><li><b>Trung tính</b>: 55–65%, 800–1000°C.</li><li><b>Felsic (acid)</b>: ~65–75%, 650–800°C, ít Fe, Mg, Ca, nhiều K, Na.</li></ul><p>Thang đầy đủ: siêu baz &lt;40 · baz 40–52 · trung tính 52–65 · acid 65–75 · siêu acid &gt;75 (%).</p>",
+"k": "mafic felsic trung tính baz acid SiO2",
+"alt": [
+"magma felsic",
+"magma mafic"
+]
+},
+{
+"c": "c05",
+"q": "Đá magma xâm nhập và phun trào khác nhau thế nào?",
+"a": "<p><b>Xâm nhập</b> (đá sâu): kết tinh ở dưới sâu, <b>chậm</b> → hạt to thấy bằng mắt. <b>Phun trào</b> (đá núi lửa): kết tinh trên mặt đất hoặc dưới nước, <b>nhanh</b> → hạt nhỏ (cần kính hiển vi) hoặc thuỷ tinh.</p>",
+"k": "xâm nhập phun trào đá sâu đá núi lửa",
+"alt": [
+"đá xâm nhập là gì",
+"đá phun trào là gì"
+]
+},
+{
+"c": "c05",
+"q": "Đá magma có những kiểu kiến trúc nào?",
+"a": "<ul><li><b>Hiển tinh</b>: nguội chậm, hạt mm–cm thấy bằng mắt (đá sâu).</li><li><b>Vi tinh</b>: nguội nhanh, tinh thể cần kính hiển vi (đá phun trào).</li><li><b>Porphyr (ban tinh)</b>: tinh thể lớn trong nền hạt nhỏ.</li><li><b>Thuỷ tinh</b>: nguội rất nhanh, không có tinh thể (obsidian).</li><li><b>Mảnh vụn</b>: mảnh vỡ do phun nổ dữ dội, xếp lớp như trầm tích.</li></ul>",
+"k": "kiến trúc hiển tinh vi tinh porphyr thuỷ tinh mảnh vụn",
+"alt": [
+"kiến trúc đá magma"
+]
+},
+{
+"c": "c05",
+"q": "Kiến trúc porphyr là gì?",
+"a": "<p>Các <b>tinh thể lớn (ban tinh)</b> nằm trong một nền <b>tinh thể nhỏ</b>. Hình thành vì khoáng vật kết tinh ở nhiệt độ và tốc độ khác nhau: magma nguội chậm dưới sâu tạo ban tinh trước, sau đó bị đưa lên nơi nguội nhanh tạo nền hạt nhỏ (nguội hai giai đoạn).</p>",
+"k": "porphyr ban tinh hai giai đoạn",
+"alt": [
+"ban tinh"
+]
+},
+{
+"c": "c05",
+"q": "Ba cặp đá magma xâm nhập – phun trào là gì?",
+"a": "<ul><li>Felsic: <b>Granite – Rhyolite</b>.</li><li>Trung tính: <b>Diorite – Andesite</b>.</li><li>Mafic: <b>Gabbro – Basalt</b>.</li></ul><p>Cùng cặp thì cùng thành phần, khác nơi nguội (đá đầu hạt thô, đá sau hạt mịn).</p>",
+"k": "granite rhyolite diorite andesite gabbro basalt cặp đá",
+"alt": [
+"các loại đá magma",
+"tên đá magma"
+]
+},
+{
+"c": "c05",
+"q": "Đá granite có đặc điểm gì?",
+"a": "<p>Đá magma <b>xâm nhập felsic</b>, màu sáng: <b>trên 20% thạch anh</b>, khoảng <b>25–65% fenspat</b>, plagioclase giàu natri, nhiều SiO₂. Là <b>thành phần chính của vỏ lục địa</b>. Slide: granite đông nguội ở độ sâu ~30 km nên thấy rõ thạch anh, plagioclase, K-fenspat, amphibole.</p>",
+"k": "granite đá hoa cương felsic thạch anh vỏ lục địa",
+"alt": [
+"granite là gì"
+]
+},
+{
+"c": "c05",
+"q": "Đá basalt có đặc điểm gì?",
+"a": "<p>Đá magma <b>phun trào mafic</b>, hạt mịn, màu xanh đen; chủ yếu pyroxene, một ít olivine và plagioclase giàu Ca. Là <b>đá phun trào phổ biến nhất</b> và là đá chủ yếu của vỏ đại dương (tạo ở sống núi giữa đại dương).</p>",
+"k": "basalt bazan mafic phun trào",
+"alt": [
+"bazan"
+]
+},
+{
+"c": "c05",
+"q": "Andesite có đặc điểm gì?",
+"a": "<p>Đá phun trào <b>trung tính</b>, màu xám, silica trung bình; phổ biến ở núi lửa vùng <b>hút chìm</b>, ví dụ dãy <b>Andes</b>. Đá xâm nhập tương ứng là diorite.</p>",
+"k": "andesite trung tính Andes hút chìm diorite",
+"alt": []
+},
+{
+"c": "c05",
+"q": "Pumice và obsidian là gì?",
+"a": "<p><b>Pumice</b> (đá bọt): thuỷ tinh núi lửa đầy lỗ, <b>rất nhẹ</b>, hình thành khi lava nhiều nước và chất bay hơi. <b>Obsidian</b>: thuỷ tinh núi lửa <b>màu đen</b>, vết vỡ vỏ chai, do nguội rất nhanh. Ngoài ra có tuff (tro), tảng và bom núi lửa.</p>",
+"k": "pumice đá bọt obsidian thuỷ tinh núi lửa tuff",
+"alt": [
+"đá bọt"
+]
+},
+{
+"c": "c05",
+"q": "Magma basalt, andesite, granite có nguồn gốc từ đâu?",
+"a": "<ul><li><b>Basalt</b>: nóng chảy một phần vật liệu siêu mafic ở phần trên manti dưới vỏ đại dương.</li><li><b>Andesite</b>: nóng chảy một phần trầm tích và vỏ đại dương ở <b>đới hút chìm</b>.</li><li><b>Granite</b>: nóng chảy một phần vật liệu dưới <b>vỏ lục địa</b>, đi qua vỏ dày và đồng hoá nhiều.</li></ul>",
+"k": "nguồn gốc magma basalt andesite granite",
+"alt": [
+"nguồn gốc magma"
+]
+},
+{
+"c": "c05",
+"q": "Những yếu tố nào làm đá tan chảy thành magma?",
+"a": "<ol><li><b>Nhiệt</b>: gradient địa nhiệt ~20–30°C/km.</li><li><b>Giảm áp suất</b>: áp suất giảm làm đá tan chảy (tan chảy giải nén), như ở sống núi.</li><li><b>Chất bay hơi</b> (chủ yếu nước): hạ nhiệt độ nóng chảy, quan trọng ở đới hút chìm.</li></ol>",
+"k": "yếu tố tan chảy nhiệt áp suất nước gradient địa nhiệt",
+"alt": [
+"gradient địa nhiệt",
+"nhiệt độ tăng theo độ sâu",
+"magma hình thành thế nào"
+]
+},
+{
+"c": "c05",
+"q": "Các khối xâm nhập gồm những dạng nào?",
+"a": "<ul><li><b>Sill</b> (vỉa): nằm ngang, kẹp giữa các lớp.</li><li><b>Dike</b> (thể tường/mạch): cắt qua khe nứt.</li><li><b>Lopolith</b>: dạng chậu, cái muỗng.</li><li><b>Laccolith</b>: dạng vòm, nấm.</li><li><b>Batholith</b> (thể nền): khối khổng lồ, ~100 km² trở lên.</li></ul>",
+"k": "khối xâm nhập sill dike lopolith laccolith batholith thể nền",
+"alt": [
+"sill và dike"
+]
+},
+{
+"c": "c05",
+"q": "Chuỗi phản ứng Bowen là gì?",
+"a": "<p>Thứ tự kết tinh khoáng vật khi magma nguội: <b>olivine</b> và <b>plagioclase giàu Ca</b> kết tinh trước; olivine phản ứng thành pyroxene (→ amphibole → biotite, chuỗi đơn); plagioclase chuyển dần giàu Na (chuỗi đôi); cuối cùng là <b>K-fenspat, muscovite, thạch anh</b>. Nếu tinh thể sớm bị tách ra, phần lỏng giàu SiO₂ dần: mafic → trung tính → acid.</p>",
+"k": "Bowen chuỗi phản ứng kết tinh olivine thạch anh phân dị",
+"alt": [
+"Bowen"
+]
+},
+{
+"c": "c05",
+"q": "Phân dị magma là gì? Ví dụ 5 MgO + 5 SiO₂.",
+"a": "<p>Phân dị magma là sự thay đổi thành phần magma do <b>kết tinh phân đoạn</b>. Ví dụ slide: dung dịch 5 MgO + 5 SiO₂ (50% SiO₂). Lấy đi 1 MgO để kết tinh → còn 4 MgO + 5 SiO₂ → SiO₂ ≈ <b>56%</b>. Vậy kết tinh khoáng vật giàu Mg, Fe ra thì phần lỏng còn lại giàu silica hơn.</p>",
+"k": "phân dị magma kết tinh phân đoạn MgO SiO2 ví dụ",
+"alt": [
+"kết tinh phân đoạn"
+]
+},
+{
+"c": "c05",
+"q": "Phun trào êm và phun nổ khác nhau thế nào?",
+"a": "<p><b>Phun trào êm</b>: magma ít khí, ít nhớt (basalt–andesite); dung nham tràn trên mặt, dưới nước tạo basalt gối. <b>Phun nổ</b>: magma nhớt cao (andesite–rhyolite); áp suất tích tụ, bọt khí nổ, phun đá vụn và tro; mây khí và tro cao tới <b>45 km</b>.</p>",
+"k": "phun trào êm phun nổ basalt gối 45 km",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Đá trầm tích là gì?",
+"a": "<p>Đá hình thành từ sự <b>gắn kết các vật liệu vụn</b> sau phong hoá và vận chuyển (hoặc do kết tủa). Chiếm ~<b>5%</b> vỏ Trái Đất nhưng ~<b>75%</b> bề mặt; ghi lại môi trường quá khứ và thường chứa hoá thạch.</p>",
+"k": "đá trầm tích định nghĩa 5% 75%",
+"alt": [
+"định nghĩa đá trầm tích"
+]
+},
+{
+"c": "c06",
+"q": "Đá trầm tích quan trọng về kinh tế thế nào?",
+"a": "<p>Chứa <b>than, dầu mỏ, khí đốt tự nhiên</b>, sắt, nhôm, uranium, mangan. Các nhà địa chất còn dùng chúng để đọc lịch sử Trái Đất.</p>",
+"k": "kinh tế đá trầm tích dầu khí than",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Quá trình hình thành đá trầm tích gồm những bước nào?",
+"a": "<p><b>Phong hoá</b> → <b>vận chuyển</b> (sông, gió, dòng chảy) → <b>lắng đọng</b> khi năng lượng dòng yếu đi → <b>thành đá</b> (diagenesis): kết tinh lại + nén chặt (chậm) + xi măng hoá (nhanh).</p>",
+"k": "quá trình hình thành đá trầm tích thành đá diagenesis",
+"alt": [
+"đá trầm tích hình thành thế nào"
+]
+},
+{
+"c": "c06",
+"q": "Nén chặt và xi măng hoá là gì?",
+"a": "<p><b>Nén chặt</b>: trầm tích chồng dày, sức nén đẩy nước dư ra ngoài (diễn ra chậm). <b>Xi măng hoá</b>: hoá chất hoà tan trong nước kết tủa, gắn các hạt lại (diễn ra nhanh). Xi măng tự nhiên: <b>calcite, silica, oxit sắt</b>.</p>",
+"k": "nén chặt xi măng hoá calcite silica oxit sắt",
+"alt": [
+"xi măng hoá"
+]
+},
+{
+"c": "c06",
+"q": "Năng lượng môi trường ảnh hưởng đến cỡ hạt thế nào?",
+"a": "<p>Môi trường <b>năng lượng cao</b> (sóng vỡ trên bãi biển, suối chảy xiết) → lắng đọng <b>hạt thô</b>. Môi trường <b>năng lượng thấp</b> (đầm phá sâu, đồng bằng vực thẳm) → lắng đọng <b>hạt mịn</b>.</p>",
+"k": "năng lượng cỡ hạt thô mịn môi trường",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Đá trầm tích được chia thành mấy nhóm?",
+"a": "<p>2 nhóm chính:</p><ul><li><b>Trầm tích vụn</b>: từ hạt rắn, phân theo kích thước hạt; phổ biến nhất là đá phiến sét và cát kết.</li><li><b>Trầm tích hoá học</b>: từ ion trong dung dịch kết tủa (vô cơ hoặc sinh hoá); ví dụ đá vôi, đá bay hơi, chert.</li></ul>",
+"k": "phân loại đá trầm tích vụn hoá học",
+"alt": [
+"các loại đá trầm tích"
+]
+},
+{
+"c": "c06",
+"q": "Đá trầm tích vụn được gọi tên theo kích thước hạt thế nào?",
+"a": "<ul><li><b>&gt; 2 mm</b> (tảng, cuội, sỏi): cuội kết (hạt tròn) hoặc dăm kết (góc cạnh).</li><li><b>1/16 – 2 mm</b> (cát): cát kết.</li><li><b>1/256 – 1/16 mm</b> (bột): bột kết.</li><li><b>&lt; 1/256 mm</b> (sét): sét kết, đá phiến sét – phổ biến nhất.</li></ul>",
+"k": "kích thước hạt cuội kết cát kết bột kết sét kết phiến sét mm",
+"alt": [
+"cỡ hạt đá trầm tích",
+"cát kết là gì"
+]
+},
+{
+"c": "c06",
+"q": "Cuội kết và dăm kết khác nhau thế nào?",
+"a": "<p>Cả hai có hạt <b>&gt; 2 mm</b>. <b>Cuội kết</b>: hạt <b>tròn</b>, đã được mài tròn do vận chuyển xa ở dòng chảy mạnh. <b>Dăm kết</b>: hạt <b>góc cạnh</b>, từ đá vỡ tích tụ dưới chân vách, vận chuyển rất gần.</p>",
+"k": "cuội kết dăm kết breccia conglomerate tròn góc cạnh",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Cát kết arkose là gì?",
+"a": "<p>Cát kết có <b>&gt; 25% fenspat</b>, hạt góc cạnh, vận chuyển gần, từ granite lộ thiên. Slide có ví dụ <b>arkose ở Bửu Long (Đồng Nai)</b>. Các loại cát kết khác: arenite thạch anh (&gt;90% thạch anh) và greywacke.</p>",
+"k": "arkose Bửu Long fenspat cát kết arenite greywacke",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Đá vôi hình thành thế nào?",
+"a": "<p>Đá vôi (CaCO₃) là đá trầm tích hoá học <b>phong phú nhất</b>. Loại vô cơ: <b>travertine</b> (trong hang động), <b>đá vôi trứng cá</b> (Bahamas). Loại sinh hoá: đá vôi san hô, <b>coquina</b> (vỏ sò vỡ), <b>đá phấn</b>.</p>",
+"k": "đá vôi limestone CaCO3 travertine coquina đá phấn",
+"alt": [
+"đá vôi là gì"
+]
+},
+{
+"c": "c06",
+"q": "Đá bay hơi là gì?",
+"a": "<p>Đá hình thành khi <b>nước biển hoặc nước hồ bay hơi</b>, chất hoà tan kết tủa lại: <b>đá muối (halite)</b> và <b>thạch cao (gypsum)</b>.</p>",
+"k": "đá bay hơi evaporite halite gypsum muối thạch cao",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Than hình thành như thế nào?",
+"a": "<p>Từ <b>xác thực vật</b> tích tụ trong môi trường <b>thiếu oxy</b> rồi bị chôn vùi. Cấp độ: than bùn → than nâu → than bitum → antraxit.</p>",
+"k": "than than bùn antraxit thực vật",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Đặc điểm nhận biết đá trầm tích là gì?",
+"a": "<p><b>Cấu tạo lớp</b> (đặc trưng nhất), phân lớp nhịp theo mùa, phân lớp xiên (gió, nước), dấu gợn sóng, <b>vết nứt bùn</b>, màu sắc phản ánh môi trường và <b>hoá thạch</b>.</p>",
+"k": "đặc điểm nhận biết đá trầm tích phân lớp hoá thạch",
+"alt": [
+"nhận biết đá trầm tích"
+]
+},
+{
+"c": "c06",
+"q": "Phân lớp nhịp (varves) là gì?",
+"a": "<p>Các lớp có đặc điểm khác nhau do <b>lắng đọng theo mùa</b>. Ví dụ hồ: mùa hè lắng vật liệu thô, mùa đông (mặt đất đóng băng) lắng vật liệu mịn. Mỗi cặp lớp giống một \"vòng năm\".</p>",
+"k": "phân lớp nhịp varves theo mùa",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Vết nứt bùn hình thành thế nào?",
+"a": "<p>Khi ao hồ, sông <b>khô cạn</b>, trầm tích bột hoặc sét khô và nứt nẻ; sau đó bị chôn vùi và được bảo tồn trong đá.</p>",
+"k": "vết nứt bùn dấu nứt nẻ",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Môi trường trầm tích gồm những loại nào?",
+"a": "<p><b>Lục địa</b> (sông, băng hà, gió) · <b>Biển</b> (nông đến ~200 m, và sâu) · <b>Chuyển tiếp đường bờ</b> (bãi triều, đầm phá, tam giác châu). Môi trường quyết định cỡ hạt, hình dạng hạt, độ chọn lọc.</p>",
+"k": "môi trường trầm tích lục địa biển chuyển tiếp",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Hạt trầm tích thay đổi thế nào khi vận chuyển xa?",
+"a": "<p>Càng xa nguồn: hạt càng <b>nhỏ</b>, càng <b>tròn</b>, độ chọn lọc tốt hơn, chỉ còn khoáng vật <b>bền (thạch anh)</b>. Gần nguồn: hạt lớn, góc cạnh, chọn lọc kém, có cả khoáng vật không bền.</p>",
+"k": "vận chuyển xa độ chọn lọc mài tròn thạch anh",
+"alt": []
+},
+{
+"c": "c06",
+"q": "Tướng đá trầm tích là gì?",
+"a": "<p>Tướng là nhóm đặc điểm của đá phản ánh <b>một môi trường lắng đọng</b>. Tướng thay đổi theo chiều đứng (thời gian) và chiều ngang (không gian). Ví dụ biển tiến: tướng biển sâu phủ lên tướng biển nông.</p>",
+"k": "tướng đá trầm tích biển tiến",
+"alt": []
+},
+{
+"c": "c07",
+"q": "Biến chất là gì?",
+"a": "<p>Biến chất là sự thay đổi <b>tổ hợp khoáng vật và kiến trúc</b> của đá có trước do <b>nhiệt độ và áp suất</b>, trong khi đá <b>vẫn ở trạng thái rắn</b> (không nóng chảy). Xảy ra ở độ sâu ~10–50 km (~200°C ở 10 km, ~800°C ở 50 km).</p>",
+"k": "biến chất định nghĩa metamorphism rắn",
+"alt": [
+"đá biến chất là gì"
+]
+},
+{
+"c": "c07",
+"q": "Những yếu tố nào gây biến chất?",
+"a": "<ul><li><b>Nhiệt độ</b> (quan trọng nhất): tái kết tinh tạo khoáng vật mới.</li><li><b>Áp suất</b>: đẳng hướng (do chôn vùi) và định hướng (do tạo núi).</li><li><b>Dung dịch</b> (chủ yếu nước): tăng tốc phản ứng.</li><li><b>Đá gốc</b>: quyết định thành phần.</li><li><b>Thời gian</b>: càng lâu tinh thể càng lớn.</li></ul>",
+"k": "yếu tố biến chất nhiệt độ áp suất dung dịch thời gian",
+"alt": [
+"nguyên nhân biến chất"
+]
+},
+{
+"c": "c07",
+"q": "Phân phiến là gì, do đâu mà có?",
+"a": "<p>Phân phiến là cấu tạo trong đó khoáng vật dẹt (như mica) xếp <b>song song nhau</b>. Do <b>áp suất định hướng</b> (khi tạo núi): khoáng vật xếp vuông góc với lực nén; sỏi cũng bị kéo dài.</p>",
+"k": "phân phiến áp suất định hướng foliation mica",
+"alt": [
+"áp suất định hướng"
+]
+},
+{
+"c": "c07",
+"q": "Chuỗi biến chất của đá phiến sét là gì?",
+"a": "<p>Nhiệt độ, áp suất tăng dần: <b>shale (đá phiến sét) → slate → phyllite → schist → gneiss</b> (→ migmatite khi bắt đầu nóng chảy một phần). Hạt to dần theo cấp biến chất.</p>",
+"k": "shale slate phyllite schist gneiss migmatite chuỗi biến chất",
+"alt": [
+"thứ tự biến chất"
+]
+},
+{
+"c": "c07",
+"q": "Slate, phyllite, schist, gneiss nhận biết thế nào?",
+"a": "<ul><li><b>Slate</b>: rất mịn, tách tấm tuyệt vời (cấp thấp).</li><li><b>Phyllite</b>: bề mặt sáng bóng, lượn sóng.</li><li><b>Schist</b>: hạt trung–thô, nhiều mica lấp lánh (ví dụ phiến mica garnet).</li><li><b>Gneiss</b>: hạt thô, dải sáng – tối xen kẽ rõ.</li></ul>",
+"k": "slate phyllite schist gneiss nhận biết",
+"alt": [
+"gneiss là gì",
+"schist là gì"
+]
+},
+{
+"c": "c07",
+"q": "Migmatite là gì?",
+"a": "<p>Đá hình thành khi đá biến chất <b>bắt đầu tan chảy một phần</b>: khoáng vật có điểm nóng chảy thấp (thạch anh, fenspat) tan rồi kết tinh lại, tạo các <b>dải đá biến chất xen dải magma</b>.</p>",
+"k": "migmatite tan chảy một phần",
+"alt": []
+},
+{
+"c": "c07",
+"q": "Marble và quartzite hình thành từ đá gì?",
+"a": "<p><b>Marble (đá hoa)</b> từ <b>đá vôi / dolomite</b>, gồm tinh thể calcite, dùng làm đá trang trí, tượng đài. <b>Quartzite</b> từ <b>cát kết giàu thạch anh</b>, hạt thạch anh lồng chặt vào nhau, dùng làm đá xây dựng. Cả hai thuộc nhóm <b>không phân phiến</b>.</p>",
+"k": "marble đá hoa quartzite đá vôi cát kết không phân phiến",
+"alt": [
+"đá hoa là gì",
+"quartzite",
+"đá cẩm thạch",
+"cẩm thạch là gì",
+"marble"
+]
+},
+{
+"c": "c07",
+"q": "Cát kết và quartzite khác nhau thế nào dưới kính?",
+"a": "<p><b>Cát kết</b>: hạt thô và xi măng giữa các hạt, khi vỡ vết nứt đi vòng quanh hạt. <b>Quartzite</b>: hạt thạch anh lồng chặt vào nhau, vết vỡ cắt xuyên qua hạt.</p>",
+"k": "cát kết quartzite kính hiển vi vết vỡ",
+"alt": []
+},
+{
+"c": "c07",
+"q": "Có những kiểu biến chất nào?",
+"a": "<ul><li><b>Tiếp xúc</b>: nhiệt từ khối magma bên cạnh, tạo đới biến chất bao quanh.</li><li><b>Thuỷ nhiệt</b>: nước nóng giàu ion qua khe nứt, phổ biến ở sống núi giữa đại dương (serpentin hoá basalt).</li><li><b>Khu vực</b>: diện rộng ở vành đai núi, đới hút chìm, va chạm lục địa – tạo nhiều đá biến chất nhất.</li><li>Khác: chôn vùi, cà nát (dọc đứt gãy), va chạm (thiên thạch).</li></ul>",
+"k": "kiểu biến chất tiếp xúc thuỷ nhiệt khu vực va chạm cà nát chôn vùi",
+"alt": [
+"các loại biến chất"
+]
+},
+{
+"c": "c07",
+"q": "Biến chất khu vực xảy ra ở đâu?",
+"a": "<p>Trên <b>diện rộng</b> ở lõi các vành đai núi, đới hút chìm và nơi <b>va chạm lục địa</b> (ranh giới hội tụ). Tạo khối lượng đá biến chất lớn nhất, ví dụ Alps, Himalaya, Appalachian.</p>",
+"k": "biến chất khu vực hội tụ Himalaya",
+"alt": []
+},
+{
+"c": "c07",
+"q": "Biến chất va chạm là gì? Ví dụ?",
+"a": "<p>Biến chất do <b>thiên thạch</b> va vào Trái Đất, tạo áp suất và nhiệt tức thời cực lớn. Ví dụ trong slide: <b>miệng hố thiên thạch gần Winslow, Arizona</b>.</p>",
+"k": "biến chất va chạm thiên thạch Winslow Arizona",
+"alt": []
+},
+{
+"c": "c08",
+"q": "Phong hoá là gì?",
+"a": "<p>Phong hoá là quá trình <b>phá vỡ cấu trúc vật lý</b> (tan rã) và <b>biến đổi hoá học</b> (phân huỷ) đá <b>ngay tại chỗ</b>. Khác với xói mòn (vật liệu bị mang đi) và dịch chuyển khối (đất đá di chuyển do trọng lực).</p>",
+"k": "phong hoá định nghĩa xói mòn",
+"alt": [
+"định nghĩa phong hoá",
+"phong hoá và xói mòn khác nhau"
+]
+},
+{
+"c": "c08",
+"q": "Có mấy kiểu phong hoá?",
+"a": "<p>3 kiểu:</p><ul><li><b>Cơ học</b> (4): sương giá, tróc mảng, giãn nở nhiệt, kết tinh muối.</li><li><b>Hoá học</b> (3): hoà tan, oxy hoá, thuỷ phân.</li><li><b>Sinh học</b> (2): sinh học – vật lý (rễ cây), sinh học – hoá học (acid hữu cơ).</li></ul>",
+"k": "các kiểu phong hoá cơ học hoá học sinh học",
+"alt": [
+"các loại phong hoá"
+]
+},
+{
+"c": "c08",
+"q": "Phong hoá cơ học gồm những cơ chế nào?",
+"a": "<ul><li><b>Sương giá</b>: nước đóng băng trong khe nứt nở ~9% thể tích, nêm vỡ đá.</li><li><b>Tróc mảng</b> (dỡ tải): lớp đá trên bị xói mòn, áp suất giảm, khối đá giãn nở và bong từng lớp như vỏ hành.</li><li><b>Giãn nở nhiệt</b>: nóng lạnh thay đổi nhanh.</li><li><b>Kết tinh muối</b>: muối kết tinh trong khe tạo áp lực phá đá.</li></ul>",
+"k": "phong hoá cơ học sương giá tróc mảng giãn nở nhiệt kết tinh muối",
+"alt": [
+"phong hoá vật lý"
+]
+},
+{
+"c": "c08",
+"q": "Sương giá phá huỷ đá như thế nào?",
+"a": "<p>Nước thấm vào khe nứt, khi đóng băng <b>tăng thể tích khoảng 9%</b>, tạo áp lực như cái nêm làm khe nứt mở rộng. Lặp lại nhiều lần thì đá vỡ vụn. Ví dụ slide: hồ Loen (Na Uy).</p>",
+"k": "sương giá frost wedging đóng băng 9%",
+"alt": []
+},
+{
+"c": "c08",
+"q": "Tróc mảng (dỡ tải) là gì?",
+"a": "<p>Khi lớp đá phía trên bị xói mòn mang đi, <b>áp suất giảm</b>, khối đá lớn (thường là thể nền granite) <b>giãn nở</b> và nứt thành các lớp song song bề mặt, bong ra như vỏ hành.</p>",
+"k": "tróc mảng dỡ tải exfoliation vỏ hành",
+"alt": [
+"exfoliation"
+]
+},
+{
+"c": "c08",
+"q": "Phong hoá hoá học gồm những phản ứng nào?",
+"a": "<ul><li><b>Hoà tan</b>: nước + CO₂ → acid carbonic hoà tan đá vôi: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂.</li><li><b>Oxy hoá</b>: khoáng vật chứa sắt + O₂ + nước → hydroxit, oxit sắt màu nâu đỏ.</li><li><b>Thuỷ phân</b>: H⁺ thay thế K⁺, Na⁺, Ca²⁺, Mg²⁺ trong khoáng vật; ví dụ fenspat → kaolin.</li></ul>",
+"k": "phong hoá hoá học hoà tan oxy hoá thuỷ phân",
+"alt": []
+},
+{
+"c": "c08",
+"q": "Thuỷ phân fenspat tạo ra gì?",
+"a": "<p>Orthoclase (fenspat K) bị thuỷ phân → <b>sét kaolin</b> + SiO₂ (K⁺ bị rửa trôi). Trong điều kiện <b>nóng ẩm</b>, kaolin tiếp tục phân huỷ thành <b>bauxit</b> (quặng nhôm) và opal.</p>",
+"k": "thuỷ phân fenspat orthoclase kaolin bauxit",
+"alt": [
+"bauxit hình thành thế nào",
+"kaolin"
+]
+},
+{
+"c": "c08",
+"q": "Oxy hoá trong phong hoá tạo ra gì?",
+"a": "<p>Oxy phản ứng với khoáng vật chứa sắt khi có nước, tạo <b>hydroxit sắt</b> rồi <b>oxit sắt (Fe₂O₃)</b> màu nâu đỏ. Ở nhiệt đới tạo <b>đá laterit</b>; ví dụ trong slide: laterit đỏ ở chùa Hội Sơn (TP.HCM).</p>",
+"k": "oxy hoá sắt laterit màu đỏ Hội Sơn",
+"alt": [
+"laterit"
+]
+},
+{
+"c": "c08",
+"q": "Phong hoá sinh học là gì?",
+"a": "<p>Do sinh vật: <b>vật lý</b> – rễ cây, hang động vật làm vỡ đá; <b>hoá học</b> – vi khuẩn, thực vật tiết acid hữu cơ phá đá để hút nguyên tố.</p>",
+"k": "phong hoá sinh học rễ cây acid hữu cơ",
+"alt": []
+},
+{
+"c": "c08",
+"q": "Những yếu tố nào ảnh hưởng đến phong hoá?",
+"a": "<p><b>Khí hậu</b> (khô lạnh → yếu; nóng ẩm mưa nhiều → mạnh), <b>kiến trúc và thành phần đá</b>, <b>thời gian</b>. Ngoài ra diện tích bề mặt: đá vỡ thành nhiều mảnh có tổng diện tích lớn hơn nên bị phong hoá hoá học nhanh hơn.</p>",
+"k": "yếu tố ảnh hưởng phong hoá khí hậu diện tích bề mặt",
+"alt": []
+},
+{
+"c": "c08",
+"q": "Ví dụ Cleopatra’s Needle nói lên điều gì?",
+"a": "<p>Cột granite này đứng hàng nghìn năm ở <b>Ai Cập khô hạn</b> vẫn còn nguyên, nhưng chuyển sang <b>New York</b> khí hậu ẩm thì bề mặt bị phong hoá (thuỷ phân) hư hại nhanh. Chứng tỏ <b>khí hậu quyết định tốc độ phong hoá</b>.</p>",
+"k": "Cleopatra Needle khí hậu phong hoá granite",
+"alt": []
+},
+{
+"c": "c08",
+"q": "Bốn giai đoạn phong hoá là gì?",
+"a": "<ol><li><b>Vỡ vụn</b>: cơ học, ngắn → mảnh vụn.</li><li><b>Sialit</b>: hoá học, môi trường kiềm, vùng khô → sét hydromica, tích CaCO₃.</li><li><b>Sialit acid</b>: nóng ẩm, rửa trôi, CaCO₃ bị hoà tan → sét kaolin.</li><li><b>Alit</b>: nhiệt đới nóng ẩm → hydroxit Al, Fe, Si: bauxit, limonit, opal.</li></ol><p>Vùng khô chỉ đến giai đoạn 2; vùng nóng ẩm đi hết giai đoạn 4.</p>",
+"k": "giai đoạn phong hoá vỡ vụn sialit alit bauxit",
+"alt": [
+"tính giai đoạn của phong hoá"
+]
+},
+{
+"c": "c08",
+"q": "Tìm thấy mỏ bauxit có thể suy ra điều gì?",
+"a": "<p>Đá mẹ giàu nhôm silicat (fenspat, như granite) và khí hậu lúc hình thành là <b>nhiệt đới nóng ẩm</b>, vì phong hoá phải đi hết giai đoạn Alit mới tạo bauxit.</p>",
+"k": "bauxit suy ra đá mẹ khí hậu",
+"alt": []
+},
+{
+"c": "c08",
+"q": "Vỏ phong hoá là gì?",
+"a": "<p>Lớp vỏ mỏng ngoài cùng của vỏ lục địa, gồm <b>sản phẩm phong hoá nằm tại chỗ</b>. Dày nhất ở vùng nhiệt đới, á nhiệt đới (~<b>100 m</b>) vì phong hoá hoá học mạnh.</p>",
+"k": "vỏ phong hoá 100 m nhiệt đới",
+"alt": []
+},
+{
+"c": "c08",
+"q": "Phẫu diện đất gồm những tầng nào?",
+"a": "<p>Từ trên xuống: <b>O</b> (mùn) · <b>A</b> (đới thấm lọc; O + A = đất mặt) · <b>E</b> (đới rửa trôi) · <b>B</b> (đới tích tụ) · <b>C</b> (đá gốc bị phong hoá). Đất gồm khoáng vật, chất hữu cơ, nước, không khí; mùn chỉ ~5% nhưng rất quan trọng.</p>",
+"k": "phẫu diện đất tầng O A E B C mùn",
+"alt": [
+"hồ sơ đất",
+"các tầng đất"
+]
+},
+{
+"c": "c08",
+"q": "Ba loại đất chính là gì?",
+"a": "<ul><li><b>Pedalfer</b>: ôn đới ẩm, tích Al, Fe.</li><li><b>Pedocal</b>: mưa ít, tích calcite.</li><li><b>Laterite</b>: nhiệt đới nóng ẩm, tích Al₂O₃ (bauxit) và oxit sắt.</li></ul>",
+"k": "loại đất pedalfer pedocal laterite",
+"alt": []
+},
+{
+"c": "c08",
+"q": "Phương trình RUSLE dùng để làm gì?",
+"a": "<p>Ước tính lượng đất bị xói mòn: <b>A = L × S × R × K × C × P</b>, với A: lượng đất mất (tấn/ha/năm); L: chiều dài sườn; S: độ dốc; R: hệ số mưa; K: tính dễ xói mòn của đất; C: lớp phủ; P: biện pháp bảo vệ. Ví dụ: ruộng bậc thang giảm L, S và tăng hiệu quả P.</p>",
+"k": "RUSLE xói mòn đất phương trình ruộng bậc thang",
+"alt": [
+"xói mòn đất"
+]
+},
+{
+"c": "c09",
+"q": "Biến dạng vỏ Trái Đất là gì?",
+"a": "<p>Mọi thay đổi về <b>hình dạng hoặc kích thước</b> của khối đá do hoạt động kiến tạo. Vỏ có chuyển động thẳng đứng (nâng, hạ, diện rộng, chậm) và nằm ngang (ép, giãn).</p>",
+"k": "biến dạng định nghĩa kiến tạo",
+"alt": []
+},
+{
+"c": "c09",
+"q": "Ứng suất là gì, có mấy loại?",
+"a": "<p><b>Ứng suất = Lực / Diện tích</b>. Có thể đẳng hướng (đều mọi hướng) hoặc dị hướng. 3 loại: <b>nén ép</b> (siết chặt), <b>căng giãn</b> (kéo dãn), <b>cắt</b> (trượt ngang).</p>",
+"k": "ứng suất stress nén ép căng giãn cắt",
+"alt": [
+"các loại ứng suất"
+]
+},
+{
+"c": "c09",
+"q": "Biến dạng đàn hồi, dẻo và dòn khác nhau thế nào?",
+"a": "<ul><li><b>Đàn hồi</b>: bỏ lực thì đá trở lại như cũ.</li><li>Vượt điểm tới hạn → <b>dẻo</b>: đá bị uốn và không trở lại (tạo nếp uốn).</li><li>Vượt điểm vỡ → <b>dòn (phá huỷ)</b>: đá gãy (khe nứt, đứt gãy).</li></ul>",
+"k": "đàn hồi dẻo dòn biến dạng điểm tới hạn điểm vỡ",
+"alt": [
+"các kiểu biến dạng"
+]
+},
+{
+"c": "c09",
+"q": "Đường phương, hướng dốc, góc dốc là gì?",
+"a": "<p>Ba yếu tố thế nằm của lớp đá: <b>đường phương</b> – phương kéo dài của lớp (giao tuyến với mặt phẳng ngang); <b>hướng dốc</b> – hướng lớp cắm xuống, vuông góc đường phương; <b>góc dốc</b> – góc giữa mặt lớp và mặt phẳng ngang.</p>",
+"k": "đường phương hướng dốc góc dốc thế nằm strike dip",
+"alt": [
+"thế nằm lớp đá"
+]
+},
+{
+"c": "c09",
+"q": "Nếp lồi và nếp lõm khác nhau thế nào?",
+"a": "<p><b>Nếp lồi</b> (anticline): uốn cong lên dạng vòm, <b>đá ở trung tâm già hơn</b> ngoài rìa. <b>Nếp lõm</b> (syncline): uốn cong xuống dạng máng, <b>đá ở trung tâm trẻ hơn</b>. Dạng tròn: vòm (dome, cổ nhất ở giữa) và bồn trũng (basin, trẻ nhất ở giữa).</p>",
+"k": "nếp lồi nếp lõm anticline syncline vòm bồn trũng",
+"alt": [
+"nếp uốn là gì",
+"nếp uốn lồi"
+]
+},
+{
+"c": "c09",
+"q": "Các bộ phận của nếp uốn là gì?",
+"a": "<p><b>Cánh</b> (hai bên sườn), <b>trục</b> (đường giữa hai cánh, nơi uốn cong nhất), <b>mặt trục</b> (mặt tưởng tượng chia nếp uốn thành 2 phần gần đối xứng). Nếp uốn có thể đối xứng, mất đối xứng, đảo, nằm, hoặc cắm (trục nghiêng).</p>",
+"k": "bộ phận nếp uốn cánh trục mặt trục",
+"alt": []
+},
+{
+"c": "c09",
+"q": "Khe nứt và đứt gãy khác nhau thế nào?",
+"a": "<p><b>Khe nứt</b>: đá vỡ nhưng <b>không dịch chuyển</b>; cấu trúc phổ biến nhất. <b>Đứt gãy</b>: đá vỡ và <b>có dịch chuyển</b> dọc mặt vỡ; chuyển động đột ngột dọc đứt gãy gây hầu hết các trận động đất.</p>",
+"k": "khe nứt đứt gãy joint fault dịch chuyển",
+"alt": []
+},
+{
+"c": "c09",
+"q": "Cánh treo và cánh nằm là gì?",
+"a": "<p>Với mặt đứt gãy nghiêng: <b>cánh treo</b> (hanging wall) là khối <b>trên</b> mặt đứt gãy; <b>cánh nằm</b> (footwall, cánh trụ) là khối <b>dưới</b>. Vết xước kiến tạo trên mặt đứt gãy là bằng chứng dịch chuyển.</p>",
+"k": "cánh treo cánh nằm hanging wall footwall",
+"alt": []
+},
+{
+"c": "c09",
+"q": "Đứt gãy thuận và đứt gãy nghịch khác nhau thế nào?",
+"a": "<p><b>Thuận</b>: do <b>căng giãn</b>, cánh treo đi <b>xuống</b>. <b>Nghịch</b>: do <b>nén ép</b>, cánh treo đi <b>lên</b>. <b>Chờm nghịch</b>: đứt gãy nghịch có góc cắm <b>&lt; 15°</b>, đá già bị đẩy chờm lên đá trẻ.</p>",
+"k": "đứt gãy thuận nghịch chờm nghịch cánh treo",
+"alt": [
+"đứt gãy thuận",
+"đứt gãy nghịch",
+"chờm nghịch"
+]
+},
+{
+"c": "c09",
+"q": "Địa hào và địa luỹ là gì?",
+"a": "<p>Do <b>ứng suất căng giãn</b> tạo một loạt <b>đứt gãy thuận</b>: khối sụt xuống là <b>địa hào</b> (graben), khối còn lại cao hơn là <b>địa luỹ</b> (horst).</p>",
+"k": "địa hào địa luỹ horst graben",
+"alt": []
+},
+{
+"c": "c09",
+"q": "Đứt gãy trượt bằng là gì?",
+"a": "<p>Do <b>ứng suất cắt</b>: mặt trượt gần thẳng đứng, hai cánh <b>trượt ngang</b> theo đường phương (phải hoặc trái). Loại rất lớn cắt qua thạch quyển là đứt gãy chuyển dạng, ví dụ San Andreas (trượt bằng phải; suối bị bẻ lệch sang phải).</p>",
+"k": "đứt gãy trượt bằng phải trái San Andreas",
+"alt": []
+},
+{
+"c": "c09",
+"q": "Vì sao dầu khí hay tích tụ ở nếp lồi?",
+"a": "<p>Khi lớp đá <b>thấm</b> (cát kết, đá vôi) xen với lớp <b>không thấm</b> (sét, bột kết) bị uốn thành nếp lồi, dầu khí nhẹ di chuyển lên <b>đỉnh vòm</b> trong lớp thấm và bị lớp sét phía trên chặn lại → <b>bẫy dầu</b>. Đứt gãy cũng có thể tạo bẫy dầu.</p>",
+"k": "bẫy dầu nếp lồi dầu khí đứt gãy",
+"alt": [
+"bẫy dầu"
+]
+},
+{
+"c": "c09",
+"q": "Có những kiểu núi nào liên quan biến dạng?",
+"a": "<ul><li>Núi liên quan <b>đứt gãy</b>: Sierra Nevada (California).</li><li>Núi <b>uốn nếp và chờm nghịch</b>: Himalaya.</li><li><b>Núi lửa</b> (không do biến dạng): Cascade, Hawaii, Iceland.</li></ul>",
+"k": "kiểu núi tạo núi Sierra Nevada Himalaya",
+"alt": []
+},
+{
+"c": "c10",
+"q": "Tuổi tương đối và tuổi tuyệt đối khác nhau thế nào?",
+"a": "<p><b>Tuổi tương đối</b>: sự kiện này <b>trước hay sau</b> sự kiện kia, không cần số năm (lớp A già hơn lớp B). <b>Tuổi tuyệt đối</b>: <b>con số cụ thể</b> (lớp cát kết 300 triệu năm), xác định bằng phóng xạ.</p>",
+"k": "tuổi tương đối tuổi tuyệt đối",
+"alt": []
+},
+{
+"c": "c10",
+"q": "Các nguyên lý địa tầng là gì?",
+"a": "<ol><li><b>Kế tục địa tầng</b> (Steno): lớp dưới già hơn lớp trên.</li><li><b>Nằm ngang nguyên thuỷ</b> (Steno).</li><li><b>Liên tục bên</b> (Steno).</li><li><b>Quan hệ xuyên cắt</b> (Hutton): cái bị cắt già hơn cái cắt.</li><li><b>Gián đoạn địa tầng</b>: mất lớp → bất chỉnh hợp.</li><li><b>Mảnh trong đá</b>: mảnh già hơn khối đá bao quanh.</li></ol>",
+"k": "nguyên lý địa tầng Steno Hutton kế tục xuyên cắt inclusions",
+"alt": [
+"nguyên lý kế tục",
+"quan hệ xuyên cắt"
+]
+},
+{
+"c": "c10",
+"q": "Nguyên lý mảnh trong đá (inclusions) nói gì?",
+"a": "<p>Mảnh vụn nằm trong một khối đá <b>luôn già hơn</b> khối đá bao quanh. Mảnh granite trong cát kết → granite già hơn; mảnh cát kết trong granite → cát kết già hơn (magma đã \"nuốt\" mảnh đá).</p>",
+"k": "inclusions mảnh trong đá granite cát kết",
+"alt": []
+},
+{
+"c": "c10",
+"q": "Có mấy dạng bất chỉnh hợp?",
+"a": "<ul><li><b>Không chỉnh hợp</b>: đá trầm tích nằm trên đá magma xâm nhập hoặc biến chất đã bị bào mòn.</li><li><b>Bất chỉnh hợp góc</b>: lớp dưới nghiêng một góc so với lớp trên.</li><li><b>Giả chỉnh hợp</b>: lớp trên và dưới song song nhưng có mặt bào mòn ở giữa, khác về đá và hoá thạch.</li></ul>",
+"k": "bất chỉnh hợp góc giả chỉnh hợp không chỉnh hợp unconformity",
+"alt": [
+"bất chỉnh hợp là gì"
+]
+},
+{
+"c": "c10",
+"q": "Đối sánh địa tầng là gì?",
+"a": "<p>Nối các tầng đá cùng tuổi ở những nơi khác nhau, dựa vào <b>thành phần thạch học</b> và <b>hoá thạch chỉ thị</b>. Ghép lại được cột địa tầng: già nhất ở đáy, trẻ nhất ở nóc.</p>",
+"k": "đối sánh địa tầng tương quan cột địa tầng hoá thạch chỉ thị",
+"alt": []
+},
+{
+"c": "c10",
+"q": "Thang thời gian địa chất chia thành những đơn vị nào?",
+"a": "<p><b>Liên đại</b> (Eon) → <b>Đại</b> (Era) → <b>Kỷ</b> (Period) → <b>Thế</b> (Epoch) → <b>Kỳ</b> (Age) → <b>Thời</b> (Chron). Đơn vị địa tầng tương ứng: Liên giới – Giới – Hệ – Thống – Bậc – Đới.</p>",
+"k": "thang thời gian địa chất liên đại đại kỷ thế kỳ",
+"alt": [
+"đơn vị thời gian địa chất"
+]
+},
+{
+"c": "c10",
+"q": "Bốn liên đại là gì?",
+"a": "<p><b>Hoả thành</b> (Hadean) → <b>Thái cổ</b> (Archean, 3,8–2,5 tỷ năm) → <b>Nguyên sinh</b> (Proterozoic, 2,5 tỷ – 545 triệu năm) → <b>Hiển sinh</b> (Phanerozoic, 545 triệu năm – nay). Ba liên đại đầu gọi chung là <b>Tiền Cambri</b>.</p>",
+"k": "liên đại Hoả thành Thái cổ Nguyên sinh Hiển sinh Tiền Cambri",
+"alt": []
+},
+{
+"c": "c10",
+"q": "Liên đại Hiển sinh gồm những đại nào?",
+"a": "<p><b>Cổ sinh</b> (Cambri, Ordovic, Silur, Devon, Carbon, Permi) → <b>Trung sinh</b> (Trias, Jura, Creta – thời khủng long, kết thúc ~66 triệu năm) → <b>Tân sinh</b> (Paleogen, Neogen, Đệ Tứ).</p>",
+"k": "Cổ sinh Trung sinh Tân sinh Creta Jura khủng long",
+"alt": [
+"đại Trung sinh"
+]
+},
+{
+"c": "c10",
+"q": "Định tuổi phóng xạ hoạt động thế nào?",
+"a": "<p>Đồng vị <b>mẹ</b> phóng xạ phân rã thành đồng vị <b>con</b> với tốc độ <b>không đổi</b>. <b>Chu kỳ bán rã</b> là thời gian để một nửa đồng vị mẹ phân rã. Đo tỷ lệ mẹ/con (khối phổ kế) → tính tuổi.</p>",
+"k": "định tuổi phóng xạ chu kỳ bán rã đồng vị",
+"alt": [
+"chu kỳ bán rã là gì"
+]
+},
+{
+"c": "c10",
+"q": "Các cặp đồng vị dùng định tuổi và chu kỳ bán rã?",
+"a": "<ul><li>²³⁸U → ²⁰⁶Pb: 4,5 tỷ năm.</li><li>²³⁵U → ²⁰⁷Pb: 710 triệu năm.</li><li>²³²Th → ²⁰⁸Pb: 14 tỷ năm.</li><li>⁴⁰K → ⁴⁰Ar, ⁴⁰Ca: 1,3 tỷ năm.</li><li>⁸⁷Rb → ⁸⁷Sr: 47 tỷ năm.</li><li>¹⁴C → ¹⁴N: 5.730 năm (chỉ vật liệu hữu cơ).</li></ul>",
+"k": "uranium chì kali argon rubidi stronti C14 bảng đồng vị",
+"alt": [
+"U-238"
+]
+},
+{
+"c": "c10",
+"q": "Vì sao không dùng C-14 để định tuổi đá granite?",
+"a": "<p>C-14 chỉ có trong <b>vật chất hữu cơ</b> (sinh vật hấp thụ khi còn sống) và chu kỳ bán rã chỉ <b>5.730 năm</b>, nên chỉ đo được vật liệu trẻ. Granite là đá vô cơ, già hàng triệu – tỷ năm, phải dùng U-Pb hoặc K-Ar.</p>",
+"k": "C14 carbon 14 granite hữu cơ",
+"alt": [
+"carbon 14",
+"C-14"
+]
+},
+{
+"c": "c10",
+"q": "Định tuổi bằng hoá thạch như thế nào?",
+"a": "<p>Mỗi loài sống trong một khoảng thời gian; lớp đá chứa nhiều loài có tuổi bằng <b>phần giao nhau</b>. Ví dụ slide: lớp có khủng long và thực vật có hoa → kỷ Creta; lớp có bọ ba thuỳ (Cambri–Permi) và lá Ginkgo (Permi–nay) → kỷ Permi.</p>",
+"k": "định tuổi hoá thạch bọ ba thuỳ Ginkgo khủng long",
+"alt": []
+},
+{
+"c": "c10",
+"q": "Vì sao nói Trái Đất ít nhất 4,6 tỷ năm tuổi?",
+"a": "<p>Đá già nhất trên Trái Đất 4,0 tỷ năm (Tây Bắc Canada), zircon 4,3 tỷ năm (Úc), nhưng <b>thiên thạch</b> cho tuổi 4,6 tỷ năm và đá Mặt Trăng 4–4,6 tỷ năm. Đá cổ trên Trái Đất đã bị tái chế nên tuổi Trái Đất được lấy theo thiên thạch.</p>",
+"k": "tuổi Trái Đất đá già nhất zircon thiên thạch",
+"alt": []
+},
+{
+"c": "c11",
+"q": "Chu trình thuỷ văn là gì?",
+"a": "<p>Vòng tuần hoàn của nước: bay hơi (từ biển, đất, thực vật) → ngưng tụ thành mây → <b>mưa</b> → một phần <b>ngấm xuống</b> thành nước dưới đất, một phần thành <b>dòng chảy mặt</b> về sông, biển → lại bay hơi.</p>",
+"k": "chu trình thuỷ văn vòng tuần hoàn nước bay hơi mưa",
+"alt": [
+"vòng tuần hoàn nước"
+]
+},
+{
+"c": "c11",
+"q": "Dòng chảy có mấy kiểu?",
+"a": "<p><b>Chảy tầng</b>: phần tử nước chuyển động song song, đều. <b>Chảy rối</b>: nước xoáy, xáo trộn. Vận tốc phụ thuộc <b>độ dốc</b> và đặc điểm kênh dẫn (hình dạng, kích thước, độ nhám).</p>",
+"k": "chảy tầng chảy rối dòng chảy vận tốc",
+"alt": []
+},
+{
+"c": "c11",
+"q": "Lưu lượng sông tính thế nào?",
+"a": "<p><b>Q = A × V</b> (m³/s), với A là diện tích mặt cắt ướt (m²), V là vận tốc trung bình (m/s). Lưu lượng quá lớn, nước tràn bờ gây <b>lũ</b>.</p>",
+"k": "lưu lượng Q A V công thức",
+"alt": [
+"công thức lưu lượng"
+]
+},
+{
+"c": "c11",
+"q": "Mặt cắt ngang và mặt cắt dọc của sông có đặc điểm gì?",
+"a": "<p><b>Mặt cắt ngang</b>: chỗ sâu nhất chảy nhanh nhất; xuống hạ lưu sông rộng và sâu hơn. <b>Mặt cắt dọc</b>: dốc ở thượng lưu, thoải dần về cửa sông. Sông đào lòng tới <b>mực xâm thực gốc</b> (mặt biển, hồ hoặc sông lớn hơn).</p>",
+"k": "mặt cắt ngang mặt cắt dọc mực xâm thực gốc",
+"alt": [
+"mực xâm thực gốc"
+]
+},
+{
+"c": "c11",
+"q": "Năng lực dòng nước và tải trọng quan hệ thế nào?",
+"a": "<p>So sánh năng lực P với tải trọng L: <b>P &gt; L</b> → xâm thực và vận chuyển; <b>P = L</b> → vận chuyển là chính; <b>P &lt; L</b> → trầm tích. Vận tốc tăng gấp đôi thì vật liệu mang được có thể nặng gấp tới 64 lần.</p>",
+"k": "năng lực dòng nước tải trọng xâm thực trầm tích",
+"alt": []
+},
+{
+"c": "c11",
+"q": "Thượng lưu, trung lưu, hạ lưu khác nhau thế nào?",
+"a": "<ul><li><b>Thượng lưu</b>: đồi núi, thung lũng chữ V, vách dốc, nhiều thác ghềnh; đào sâu là chính.</li><li><b>Trung lưu</b>: ít dốc, uốn khúc, thung lũng chữ U.</li><li><b>Hạ lưu</b>: thoải, bãi bồi, khúc uốn hình rắn, hồ sừng trâu, tam giác châu; bồi tụ là chính.</li></ul>",
+"k": "thượng lưu trung lưu hạ lưu chữ V chữ U",
+"alt": [
+"đoạn sông"
+]
+},
+{
+"c": "c11",
+"q": "Các kiểu lòng sông là gì?",
+"a": "<p><b>Thẳng</b> (hiếm), <b>uốn khúc</b> (xói bờ lõm, bồi bờ lồi; ví dụ sông Sài Gòn) và <b>phân nhánh</b> (nhiều cồn cát chia dòng; ví dụ sông Mê Kông đoạn Campuchia).</p>",
+"k": "kiểu lòng sông thẳng uốn khúc phân nhánh Sài Gòn Mê Kông",
+"alt": [
+"sông uốn khúc"
+]
+},
+{
+"c": "c11",
+"q": "Hồ sừng trâu hình thành thế nào?",
+"a": "<p>Ở sông uốn khúc, bờ lõm bị xói, bờ lồi được bồi nên khúc uốn ngày càng cong. Khi <b>cổ khúc uốn bị cắt đứt</b> (thường trong lũ), dòng chính đi tắt, đoạn cong cũ bị bỏ lại thành hồ hình sừng trâu.</p>",
+"k": "hồ sừng trâu oxbow khúc uốn",
+"alt": []
+},
+{
+"c": "c11",
+"q": "Tam giác châu hình thành thế nào?",
+"a": "<p>Khi sông đổ vào biển hoặc hồ, độ dốc và vận tốc <b>giảm đột ngột</b>, năng lực dòng nước nhỏ hơn tải trọng nên vật liệu lắng đọng, bồi dần thành châu thổ với nhiều nhánh sông.</p>",
+"k": "tam giác châu châu thổ delta cửa sông",
+"alt": [
+"delta"
+]
+},
+{
+"c": "c11",
+"q": "Đê tự nhiên và đồng bằng ngập lũ hình thành thế nào?",
+"a": "<p>Khi lũ tràn bờ, vận tốc giảm ngay ở mép sông → hạt thô lắng lại tạo <b>đê tự nhiên</b>; hạt mịn lan xa phủ thành <b>đồng bằng ngập lũ</b>. Sông ra khỏi vùng núi, độ dốc giảm đột ngột tạo <b>nón phóng vật</b>.</p>",
+"k": "đê tự nhiên đồng bằng ngập lũ nón phóng vật",
+"alt": []
+},
+{
+"c": "c11",
+"q": "Sông vận chuyển vật liệu bằng những cách nào?",
+"a": "<p><b>Cơ học</b>: lăn, đẩy (cuội, cát dọc đáy) · nhảy bước · lơ lửng (hạt mịn). <b>Hoá học</b>: dạng dung dịch và keo. Càng xa, hạt càng tròn, khoáng vật kém bền bị phá, khoáng vật bền tập trung.</p>",
+"k": "vận chuyển lăn đẩy nhảy bước lơ lửng dung dịch keo",
+"alt": []
+},
+{
+"c": "c11",
+"q": "Thềm sông là gì?",
+"a": "<p>Thềm sông là <b>bãi bồi cũ bị nâng lên</b>, hoặc hình thành do mực biển hạ khiến sông đào sâu lòng mới, để lại bãi bồi cũ ở cao hơn.</p>",
+"k": "thềm sông bãi bồi",
+"alt": []
+},
+{
+"c": "c11",
+"q": "Có những dạng hệ thống sông (mạng thoát nước) nào?",
+"a": "<p>Mạng sông phản ánh cấu trúc đá: <b>xuyên tâm</b>, <b>đuôi gai</b> (cành cây), <b>hộp chữ nhật</b>, <b>lưới ngang</b>; ngoài ra rẽ quạt, lông chim, song song. <b>Lưu vực sông</b> là vùng thu nước của một hệ thống.</p>",
+"k": "hệ thống sông thoát nước xuyên tâm đuôi gai lưu vực",
+"alt": []
+},
+{
+"c": "c12",
+"q": "Nước dưới đất là gì?",
+"a": "<p>Nước nằm trong <b>lỗ hổng của đất, trầm tích</b> và <b>khe nứt của đá gốc</b>. Đây là kho nước ngọt lớn nhất con người có thể dùng, tái tạo được nếu khai thác hợp lý. Nước ngầm là một loại nước dưới đất.</p>",
+"k": "nước dưới đất nước ngầm groundwater",
+"alt": [
+"nước ngầm là gì"
+]
+},
+{
+"c": "c12",
+"q": "Độ lỗ hổng và tính thấm khác nhau thế nào?",
+"a": "<p><b>Độ lỗ hổng</b> = thể tích lỗ hổng / thể tích đá → khả năng <b>chứa</b> nước. <b>Tính thấm</b> = khả năng <b>cho nước đi qua</b>, phụ thuộc kích thước lỗ, hạt và mức thông nhau giữa các lỗ.</p>",
+"k": "độ lỗ hổng tính thấm porosity permeability",
+"alt": [
+"độ rỗng"
+]
+},
+{
+"c": "c12",
+"q": "Vì sao sét có độ lỗ hổng cao nhưng thấm kém?",
+"a": "<p>Tổng thể tích lỗ trong sét lớn nhưng từng lỗ <b>cực nhỏ</b> và nước bám chặt vào hạt sét, nên nước gần như không chảy qua. Vì vậy sét là <b>tầng cách nước</b>.</p>",
+"k": "sét thấm kém tầng cách nước",
+"alt": []
+},
+{
+"c": "c12",
+"q": "Đá nào thấm nước tốt, đá nào không thấm?",
+"a": "<ul><li>Thấm tốt (&gt;10 m³/ngày đêm): đá hòn, cuội, cát, đá hang hốc.</li><li>Thấm (1–10): cát, cát kết, cuội kết, đá nứt nẻ.</li><li>Trung bình (0,1–1): bột kết, đá vôi sét.</li><li>Kém (0,001–0,1): á cát, á sét.</li><li>Không thấm (≤0,001): đất sét, đá không nứt nẻ.</li></ul>",
+"k": "hệ số thấm đá thấm tốt không thấm",
+"alt": []
+},
+{
+"c": "c12",
+"q": "Đới thông khí và đới bão hoà là gì?",
+"a": "<p><b>Đới thông khí</b>: từ mặt đất xuống; lỗ hổng chứa cả <b>nước và không khí</b>; nước đi thẳng đứng. <b>Đới bão hoà</b>: lỗ hổng <b>đầy nước</b>; mặt trên là <b>mực nước ngầm</b>.</p>",
+"k": "đới thông khí đới bão hoà mực nước ngầm",
+"alt": [
+"mực nước ngầm"
+]
+},
+{
+"c": "c12",
+"q": "Tầng chứa nước và tầng cách nước là gì?",
+"a": "<p><b>Tầng chứa nước</b> (aquifer): đất đá thấm tốt, chứa và cho nước chảy qua. <b>Tầng cách nước</b> (aquitard): không cho nước đi qua, như sét, đá không nứt nẻ.</p>",
+"k": "tầng chứa nước aquifer tầng cách nước aquitard",
+"alt": []
+},
+{
+"c": "c12",
+"q": "Nước ngầm di chuyển thế nào? Định luật Darcy?",
+"a": "<p>Rất chậm (vài cm/ngày, ~0,3 m/ngày; trong hang karst tới 100 m/ngày), nhờ trọng lực. Nước chảy từ nơi có <b>đầu thuỷ lực cao về thấp</b>; độ dốc thuỷ lực = h/L. <b>Darcy</b>: với dòng thấm đồng đều, vận tốc tăng khi độ dốc thuỷ lực tăng.</p>",
+"k": "Darcy độ dốc thuỷ lực vận tốc nước ngầm",
+"alt": [
+"định luật Darcy"
+]
+},
+{
+"c": "c12",
+"q": "Nước ngầm và nước gian tầng khác nhau thế nào?",
+"a": "<p><b>Nước ngầm</b>: tầng chứa nước đầu tiên nằm trên tầng cách nước đầu tiên, mặt trên tự do. <b>Nước gian tầng</b>: nằm <b>giữa hai tầng cách nước</b>, có thể không áp hoặc <b>có áp (artesi)</b>. Phía trên mực nước ngầm còn có thể có gương nước treo.</p>",
+"k": "nước ngầm nước gian tầng gương nước treo",
+"alt": [
+"gương nước treo"
+]
+},
+{
+"c": "c12",
+"q": "Giếng artesi là gì, vì sao nước tự phun?",
+"a": "<p>Giếng khoan vào tầng nước <b>gian tầng có áp</b>: tầng chứa bị kẹp giữa hai tầng cách nước và <b>miền cấp nước cao hơn</b> miệng giếng, nên khi khoan tới, nước dâng lên và có thể tự phun.</p>",
+"k": "artesi giếng tự phun có áp",
+"alt": [
+"nước artesi",
+"giếng phun",
+"giếng artesi"
+]
+},
+{
+"c": "c12",
+"q": "Suối nước nóng và mạch nước phun hình thành thế nào?",
+"a": "<p><b>Suối nóng</b>: nước ấm hơn nhiệt độ không khí trung bình năm 6–9°C, được đá núi lửa nung nóng (ví dụ Beppu, Nhật Bản). <b>Mạch nước phun</b> (geyser): nước trong khoang ngầm bị nung, cột nước bên trên làm tăng điểm sôi; khi sôi bùng thành hơi thì phun lên gián đoạn.</p>",
+"k": "suối nước nóng mạch nước phun geyser Beppu",
+"alt": [
+"geyser"
+]
+},
+{
+"c": "c12",
+"q": "Địa hình karst hình thành thế nào?",
+"a": "<p>Nước chứa CO₂ hoà tan đá vôi: <b>H₂O + CO₂ + CaCO₃ ⇌ Ca(HCO₃)₂</b>. Điều kiện: đá dễ hoà tan (carbonat, muối), thấm mạnh, nước giàu CO₂ và di động. Tạo hố sụp, hang động, nhũ đá, măng đá, tháp karst, suối chìm.</p>",
+"k": "karst đá vôi hoà tan hang động hố sụp",
+"alt": [
+"karst là gì",
+"hang động hình thành"
+]
+},
+{
+"c": "c12",
+"q": "Nhũ đá và măng đá khác nhau thế nào?",
+"a": "<p><b>Nhũ đá</b> (stalactite) <b>treo trên trần</b> hang; <b>măng đá</b> (stalagmite) <b>mọc từ sàn</b> hang. Cả hai do CaCO₃ kết tủa từ nước nhỏ giọt.</p>",
+"k": "nhũ đá măng đá stalactite stalagmite",
+"alt": []
+},
+{
+"c": "c12",
+"q": "Hố sụp (sinkhole) là gì?",
+"a": "<p>Chỗ mặt đất sụp xuống ở vùng karst khi hang ngầm bên dưới bị hoà tan mở rộng. Đông Nam Á còn có địa hình <b>tháp karst</b>.</p>",
+"k": "hố sụp sinkhole tháp karst",
+"alt": []
+},
+{
+"c": "c12",
+"q": "Vì sao vùng karst dễ ô nhiễm nước ngầm?",
+"a": "<p>Vì đá vôi bị hoà tan có <b>khe hở, hang lớn</b>, nước bẩn chảy nhanh và đi xa mà <b>không được lọc</b> qua lớp hạt mịn như khi chảy qua cát.</p>",
+"k": "ô nhiễm karst nước thải",
+"alt": []
+},
+{
+"c": "c12",
+"q": "Nguồn ô nhiễm nước ngầm và tác hại khi bơm quá mức?",
+"a": "<p>Nguồn ô nhiễm: nước thải (phổ biến nhất), xâm nhập mặn, phân bón, thuốc trừ sâu, hoá chất công nghiệp. Bơm tạo <b>nón hạ thấp mực nước</b> có thể kéo chất bẩn về giếng; bơm nhanh hơn lượng bổ cập → mực nước giảm, chi phí tăng, xâm nhập mặn, sụt lún.</p>",
+"k": "ô nhiễm nước ngầm nón hạ thấp mực nước bơm quá mức xâm nhập mặn",
+"alt": [
+"nón hạ thấp"
+]
+},
+{
+"c": "c13",
+"q": "Dịch chuyển khối là gì?",
+"a": "<p>Sự chuyển động <b>phá vỡ liên kết</b> của khối đất đá dưới tác dụng của <b>trọng lực</b> để đạt trạng thái cân bằng mới. Thường ở sườn dốc; có thể chậm hoặc đột ngột. Kích hoạt bởi mưa, lũ, phong hoá, động đất và con người (khai thác, phá rừng).</p>",
+"k": "dịch chuyển khối trượt lở định nghĩa",
+"alt": [
+"trượt lở đất là gì",
+"sạt lở là gì"
+]
+},
+{
+"c": "c13",
+"q": "Những nhân tố nào ảnh hưởng đến trượt lở?",
+"a": "<p><b>Trọng lực</b> (động lực), <b>độ dốc sườn</b>, <b>nước</b>, <b>vật liệu</b> khối trượt; ngoài ra cấu trúc địa chất, thảm thực vật, khí hậu, phong hoá, động đất, sóng biển, thời gian và con người.</p>",
+"k": "nhân tố trượt lở trọng lực độ dốc nước vật liệu",
+"alt": [
+"nguyên nhân sạt lở"
+]
+},
+{
+"c": "c13",
+"q": "Vì sao nước gây trượt lở?",
+"a": "<ul><li><b>Tăng khối lượng</b> khối đất đá.</li><li>Làm đất sét <b>trương nở</b>.</li><li><b>Hoà tan</b> chất gắn kết giữa các hạt.</li><li><b>Tăng áp lực lỗ rỗng</b>: hạt tách rời, ma sát giảm, đất chuyển sang dẻo rồi chảy.</li></ul><p>Vì vậy sạt lở hay xảy ra sau mưa lớn kéo dài.</p>",
+"k": "nước trượt lở áp lực lỗ rỗng bão hoà mưa",
+"alt": [
+"vai trò của nước trong trượt lở"
+]
+},
+{
+"c": "c13",
+"q": "Độ dốc sườn ảnh hưởng đến trượt lở thế nào?",
+"a": "<p>Trọng lực trên sườn tách thành g<sub>t</sub> (song song sườn, kéo trượt) và g<sub>p</sub> (vuông góc sườn, ép giữ). <b>g<sub>t</sub> &gt; g<sub>p</sub></b> thì trượt. Sườn càng dốc, g<sub>t</sub> càng lớn, càng dễ trượt và trượt nhanh.</p>",
+"k": "độ dốc sườn gt gp thành phần trọng lực",
+"alt": []
+},
+{
+"c": "c13",
+"q": "Vật liệu khối trượt quyết định kiểu dịch chuyển thế nào?",
+"a": "<p>Vật liệu <b>bở rời → chảy</b>; gắn kết vừa phải → <b>trượt</b>; cứng chắc → <b>rơi</b>.</p>",
+"k": "vật liệu khối trượt bở rời chảy trượt rơi",
+"alt": []
+},
+{
+"c": "c13",
+"q": "Có những kiểu dịch chuyển khối nào?",
+"a": "<ul><li><b>Chảy</b> (flow): vật liệu bở rời rất ẩm chảy thành dòng, sau mưa lớn; nhanh.</li><li><b>Bò/trườn</b> (creep): rất chậm, lâu dài.</li><li><b>Trượt</b> (slide) và <b>trượt sụp</b> (slump): khối di chuyển theo mặt trượt.</li><li><b>Rơi/lở</b> (fall): mặt gần thẳng đứng, rơi tự do, cực nhanh.</li></ul>",
+"k": "kiểu dịch chuyển khối chảy bò trườn trượt sụp rơi lở",
+"alt": [
+"các loại trượt lở"
+]
+},
+{
+"c": "c13",
+"q": "Bò/trườn (creep) nhận biết thế nào?",
+"a": "<p>Khối vật liệu bở rời dịch chuyển <b>rất chậm</b> theo sườn trong thời gian dài, vận tốc giảm từ mặt xuống sâu. Dấu hiệu: <b>cột điện, hàng rào, thân cây nghiêng dần</b> về phía chân dốc.</p>",
+"k": "bò trườn creep cột điện nghiêng",
+"alt": []
+},
+{
+"c": "c13",
+"q": "Khối trượt gồm những bộ phận nào?",
+"a": "<p><b>Vách trượt</b>, <b>mặt trượt</b>, <b>khe nứt ngang</b>, <b>chân khối trượt</b>. Trượt sụp có mặt trượt cong, khối xoay, thường kèm dòng chảy đất ở chân.</p>",
+"k": "bộ phận khối trượt vách trượt mặt trượt chân",
+"alt": []
+},
+{
+"c": "c13",
+"q": "Thảm thực vật làm tăng hay giảm trượt lở?",
+"a": "<p>Nhìn chung làm <b>giảm</b>: rễ cây giữ đất, hút bớt nước. Nhưng cây lớn cũng thêm khối lượng trên sườn. Phá rừng làm trượt lở tăng rõ.</p>",
+"k": "thảm thực vật rễ cây phá rừng trượt lở",
+"alt": []
+},
+{
+"c": "c13",
+"q": "Xếp các kiểu dịch chuyển khối theo tốc độ?",
+"a": "<p>Từ chậm đến nhanh: <b>bò/trườn</b> (rất chậm) → <b>trượt, trượt sụp</b> (chậm đến nhanh) → <b>chảy</b> (nhanh) → <b>rơi/lở</b> (cực nhanh, không báo trước).</p>",
+"k": "tốc độ dịch chuyển khối nhanh chậm",
+"alt": []
+},
+{
+"c": "c13",
+"q": "Hiểu trượt lở có ý nghĩa thực tế gì?",
+"a": "<p>Giúp <b>dự báo, giảm thiểu thiên tai</b> và <b>tư vấn quy hoạch</b> khu dân cư, hầm, cầu cảng, giao thông: tránh hoặc gia cố những sườn có vật liệu bở rời, dốc, dễ bão hoà nước (thoát nước, trồng cây, giảm độ dốc).</p>",
+"k": "ý nghĩa phòng tránh sạt lở quy hoạch",
+"alt": [
+"phòng chống sạt lở"
+]
+},
+{
+"c": "c14",
+"q": "Vì sao vùng xích đạo nóng hơn vùng cực?",
+"a": "<p>Ở xích đạo tia Mặt Trời chiếu gần <b>90°</b> (trực tiếp): năng lượng tập trung trên diện tích nhỏ. Về hai cực tia chiếu <b>xiên</b> (gián tiếp): cùng năng lượng trải trên diện tích lớn hơn, bức xạ giảm. Đơn vị bức xạ: W/m².</p>",
+"k": "xích đạo nóng cực lạnh bức xạ Mặt Trời góc chiếu",
+"alt": []
+},
+{
+"c": "c14",
+"q": "Vì sao có tuần hoàn khí quyển?",
+"a": "<p>Gần xích đạo năng lượng <b>hấp thụ nhiều hơn phát ra</b> (dư), gần cực <b>phát ra nhiều hơn hấp thụ</b> (thiếu). Khí quyển phải <b>vận chuyển nhiệt từ xích đạo về cực</b>, tạo ra các vòng tuần hoàn và gió.</p>",
+"k": "tuần hoàn khí quyển cân bằng năng lượng",
+"alt": []
+},
+{
+"c": "c14",
+"q": "Ba vòng tuần hoàn khí quyển là gì?",
+"a": "<p>Mỗi bán cầu có 3 vòng: <b>Hadley</b> (xích đạo – 30°), <b>Ferrel</b> (30° – 60°), <b>Polar</b> (60° – cực). Gió bề mặt tương ứng: gió mậu dịch, gió Tây (Westerlies), gió Đông cực.</p>",
+"k": "Hadley Ferrel Polar vòng tuần hoàn",
+"alt": [
+"ô Hadley"
+]
+},
+{
+"c": "c14",
+"q": "Gió mậu dịch và gió Tây là gì?",
+"a": "<p><b>Gió mậu dịch</b>: gió bề mặt thổi từ khoảng 30° về xích đạo (thuộc vòng Hadley). <b>Gió Tây</b> (Westerlies): gió thổi từ phía Tây ở vĩ độ trung bình (vòng Ferrel).</p>",
+"k": "gió mậu dịch gió Tây westerlies trade wind",
+"alt": []
+},
+{
+"c": "c14",
+"q": "Gió hình thành thế nào? Áp cao, áp thấp?",
+"a": "<p>Không khí đi <b>từ áp cao sang áp thấp</b>. Nơi khí <b>hội tụ</b> ở bề mặt thì bốc lên → <b>áp thấp</b> (dễ mây mưa); nơi khí <b>giáng xuống</b> thì phân kỳ ở bề mặt → <b>áp cao</b>. Đường đẳng áp nối các điểm cùng áp suất.</p>",
+"k": "gió áp cao áp thấp hội tụ phân kỳ đẳng áp isobar",
+"alt": [
+"áp thấp là gì"
+]
+},
+{
+"c": "c14",
+"q": "Lốc xoáy (cyclone) và xoáy nghịch (anticyclone) khác nhau thế nào?",
+"a": "<p><b>Cyclone</b>: tâm <b>áp thấp</b>, không khí hội tụ và <b>bốc lên</b>, tạo mây mưa. <b>Anticyclone</b>: tâm <b>áp cao</b>, không khí <b>giáng xuống</b> và toả ra. Chiều xoay ở bán cầu Nam ngược với bán cầu Bắc.</p>",
+"k": "cyclone anticyclone lốc xoáy xoáy nghịch",
+"alt": [
+"xoáy nghịch"
+]
+},
+{
+"c": "c14",
+"q": "Khí quyển gồm những tầng nào?",
+"a": "<p>Từ dưới lên (theo hình slide): <b>tầng đối lưu</b> (0 – ~12 km, có thời tiết) → <b>tầng bình lưu</b> (đến ~50 km, có ozone) → <b>tầng trung lưu</b> (đến ~85–90 km) → <b>tầng nhiệt</b> (đến ~500 km) → <b>tầng ngoài</b>.</p>",
+"k": "tầng khí quyển đối lưu bình lưu trung lưu nhiệt ngoài",
+"alt": [
+"cấu trúc khí quyển",
+"các tầng khí quyển"
+]
+},
+{
+"c": "c14",
+"q": "Thành phần không khí khô gồm những gì?",
+"a": "<p>Nitơ ~<b>78%</b>, Oxy ~<b>21%</b>, Argon ~0,93%, CO₂ ~0,038% và các khí vết (neon, heli, krypton, hydro, xenon).</p>",
+"k": "thành phần không khí nitơ oxy argon CO2",
+"alt": []
+},
+{
+"c": "c14",
+"q": "Thời tiết xảy ra ở tầng nào?",
+"a": "<p>Ở <b>tầng đối lưu</b> (troposphere), tầng thấp nhất: nhiệt độ giảm theo độ cao, không khí đối lưu mạnh, có mây, mưa, gió.</p>",
+"k": "thời tiết tầng đối lưu",
+"alt": []
+},
+{
+"c": "c14",
+"q": "Dòng phản lực (jet stream) là gì?",
+"a": "<p>Luồng gió <b>dài và hẹp</b> ở phần trên tầng đối lưu – dưới tầng bình lưu (~25.000–35.000 ft); mạnh nhất có thể vượt <b>250 dặm/giờ</b>; gần như luôn thổi <b>từ phía Tây</b> ở vĩ độ trung bình; rộng hàng trăm km nhưng chỉ sâu vài km.</p>",
+"k": "dòng phản lực jet stream",
+"alt": []
+},
+{
+"c": "c14",
+"q": "Các dạng mây cirrus, cumulus, stratus là gì?",
+"a": "<p><b>Cirrus</b> (\"xoăn tóc\"): cao, trắng, mỏng. <b>Cumulus</b> (\"một đống\"): khối mây tròn riêng lẻ. <b>Stratus</b> (\"một lớp\"): tấm phủ rộng bầu trời. Tầng cao: Cirrus, Cirrostratus, Cirrocumulus; tầng giữa: Altocumulus, Altostratus; tầng thấp: Stratus, Stratocumulus, Nimbostratus.</p>",
+"k": "mây cirrus cumulus stratus nimbostratus altocumulus",
+"alt": [
+"các loại mây"
+]
+},
+{
+"c": "c14",
+"q": "Bản đồ khí hậu Köppen là gì?",
+"a": "<p>Bản đồ phân loại khí hậu toàn cầu (slide dùng bản 1901–2010) dựa trên <b>nhiệt độ và lượng mưa</b>.</p>",
+"k": "Köppen Koppen phân loại khí hậu",
+"alt": []
+},
+{
+"c": "c15",
+"q": "Biến đổi khí hậu là gì?",
+"a": "<p>Theo <b>IPCC</b>: sự thay đổi trạng thái khí hậu, xác định qua thay đổi <b>giá trị trung bình và/hoặc độ biến động</b>, kéo dài <b>hàng thập kỷ hoặc lâu hơn</b>; do quá trình tự nhiên (chu kỳ Mặt Trời, núi lửa) hoặc do con người (thay đổi thành phần khí quyển, sử dụng đất).</p>",
+"k": "biến đổi khí hậu định nghĩa IPCC BĐKH",
+"alt": [
+"BĐKH là gì",
+"định nghĩa biến đổi khí hậu"
+]
+},
+{
+"c": "c15",
+"q": "Định nghĩa BĐKH của IPCC và UNFCCC khác nhau thế nào?",
+"a": "<p><b>IPCC</b> tính cả nguyên nhân tự nhiên và con người. <b>UNFCCC</b> (Điều 1) chỉ coi là BĐKH phần do <b>con người</b> gây ra trực tiếp hoặc gián tiếp, tách khỏi biến động tự nhiên.</p>",
+"k": "IPCC UNFCCC khác nhau",
+"alt": []
+},
+{
+"c": "c15",
+"q": "Các khí nhà kính chính là gì?",
+"a": "<p><b>CO₂</b> (đốt than, dầu, khí; phá rừng), <b>CH₄</b> (chăn nuôi, nông nghiệp), <b>N₂O</b> (phân bón chứa nitơ), <b>khí flo hoá</b> HFCs, PFCs, SF₆, NF₃ (điều hoà, tủ lạnh, bình xịt, thiết bị điện).</p>",
+"k": "khí nhà kính CO2 CH4 N2O HFC",
+"alt": []
+},
+{
+"c": "c15",
+"q": "Hiệu ứng nhà kính là gì?",
+"a": "<p>Ánh sáng Mặt Trời xuyên khí quyển làm ấm mặt đất; mặt đất phát lại <b>bức xạ hồng ngoại</b>; <b>khí nhà kính hấp thụ</b> và phát xạ trở lại nên nhiệt bị giữ lại. Khí nhà kính càng nhiều thì Trái Đất càng nóng lên.</p>",
+"k": "hiệu ứng nhà kính hồng ngoại giữ nhiệt",
+"alt": []
+},
+{
+"c": "c15",
+"q": "Hậu quả của biến đổi khí hậu là gì?",
+"a": "<p>Nhiệt độ toàn cầu tăng, nước biển dâng, thời tiết thất thường, thiên tai cực đoan, hạn hán, suy thoái đất, mất đa dạng sinh học; tác động xã hội: di dân, nghèo đói, mất sinh kế, dịch bệnh, thiếu lương thực và nước. Ở Việt Nam: nhiệt độ tăng (1958–2018), ĐBSCL có nguy cơ ngập do sụt lún + nước biển dâng.</p>",
+"k": "hậu quả biến đổi khí hậu nước biển dâng ĐBSCL",
+"alt": [
+"tác động biến đổi khí hậu"
+]
+},
+{
+"c": "c15",
+"q": "Vì sao người thu nhập thấp chịu tác động BĐKH nặng nhất?",
+"a": "<p>3/4 người thu nhập thấp <b>dựa vào nông nghiệp và tài nguyên</b>; họ thường sống ở <b>vùng có nguy cơ cao</b>; <b>hạ tầng yếu</b> làm giảm khả năng phục hồi; các nhóm thiểu số, phụ nữ khó tiếp cận nguồn lực bình đẳng.</p>",
+"k": "người thu nhập thấp nghèo tác động BĐKH",
+"alt": []
+},
+{
+"c": "c15",
+"q": "Giải pháp ứng phó BĐKH là gì?",
+"a": "<p>Hai hướng: <b>giảm nhẹ</b> (mitigation) – giảm phát thải: năng lượng tái tạo, giao thông thay thế, công trình tiết kiệm năng lượng; và <b>thích ứng</b> (adaptation) – quản lý rủi ro: chống lũ, quy hoạch bờ biển chống chịu. Cá nhân: tiết kiệm điện, đi xe công cộng, ăn nhiều rau, giảm – tái sử dụng – sửa chữa – tái chế.</p>",
+"k": "giải pháp giảm nhẹ thích ứng mitigation adaptation",
+"alt": [
+"giảm nhẹ và thích ứng"
+]
+},
+{
+"c": "c15",
+"q": "Tài nguyên Trái Đất là gì?",
+"a": "<p>Các dạng vật chất <b>hình thành do quá trình địa chất</b>, tồn tại trong hoặc trên vỏ Trái Đất mà con người có thể <b>khai thác, sử dụng</b>.</p>",
+"k": "tài nguyên Trái Đất định nghĩa",
+"alt": []
+},
+{
+"c": "c15",
+"q": "Khoáng sản và quặng là gì?",
+"a": "<p><b>Khoáng sản</b>: thành tạo khoáng vật tự nhiên dùng trực tiếp hoặc lấy ra kim loại, khoáng vật; gồm kim loại, phi kim loại và đá hữu cơ cháy được. <b>Quặng</b>: đá hoặc trầm tích chứa khoáng chất có giá trị <b>tập trung trên mức nền</b>, khai thác <b>có lợi nhuận</b>.</p>",
+"k": "khoáng sản quặng định nghĩa",
+"alt": [
+"quặng là gì"
+]
+},
+{
+"c": "c15",
+"q": "Mỏ khoáng sản hình thành nhờ những quá trình nào?",
+"a": "<p>Gắn với bối cảnh kiến tạo (tách giãn, hút chìm, va chạm, rìa lục địa, điểm nóng) và ba nhóm quá trình làm giàu: <b>magma</b>, <b>nhiệt dịch</b>, <b>nước bề mặt</b> (vận chuyển hoá học hoặc cơ học, như phong hoá tạo bauxit).</p>",
+"k": "hình thành mỏ khoáng sản magma nhiệt dịch nước bề mặt",
+"alt": []
+},
+{
+"c": "c15",
+"q": "Hệ số tập trung là gì?",
+"a": "<p>Số lần hàm lượng một nguyên tố trong mỏ phải <b>cao hơn hàm lượng trung bình</b> trong vỏ Trái Đất để khai thác có lời. Ví dụ: Al trung bình 8%, hệ số 3–4 → mỏ phải đạt <b>24–32% Al</b>. Fe 6–7; Cu 100–200; Au, Cr 4.000–5.000; U 500–1.000.</p>",
+"k": "hệ số tập trung nhôm vàng hàm lượng trung bình",
+"alt": [
+"hệ số tập trung của nhôm"
+]
+},
+{
+"c": "c15",
+"q": "Khoáng sản được khai thác bằng những hình thức nào?",
+"a": "<p><b>Hầm lò</b> (dưới lòng đất), <b>lộ thiên</b> (trên mặt), và <b>dầu khí</b> (giếng khoan, kể cả trên biển).</p>",
+"k": "khai thác hầm lò lộ thiên dầu khí",
+"alt": []
+},
+{
+"c": "c15",
+"q": "Việt Nam có bao nhiêu đất hiếm?",
+"a": "<p>Trữ lượng khoảng <b>22 triệu tấn</b>, tập trung ở mỏ Nậm Xe, Đông Pao (Lai Châu), Mường Hum (Lào Cai), Yên Phú (Yên Bái).</p>",
+"k": "đất hiếm Việt Nam Nậm Xe Đông Pao",
+"alt": []
+},
+{
+"c": "c15",
+"q": "Tiêu thụ năng lượng toàn cầu liên quan BĐKH thế nào?",
+"a": "<p>Năm 2020 thế giới tiêu thụ khoảng <b>160.000 TWh</b> năng lượng sơ cấp (576 exajoule), phần lớn từ <b>nhiên liệu hoá thạch</b>. Theo UNEP, khai thác và sử dụng tài nguyên tăng liên tục (1970–2017), kéo theo phát thải tăng.</p>",
+"k": "năng lượng tiêu thụ TWh nhiên liệu hoá thạch UNEP",
+"alt": []
+},
+{
+"c": "c16",
+"q": "Kinh tế tuần hoàn là gì?",
+"a": "<p>Theo <b>Luật Bảo vệ môi trường 2020</b>: mô hình kinh tế trong đó thiết kế, sản xuất, tiêu dùng và dịch vụ nhằm <b>giảm khai thác nguyên liệu</b>, <b>kéo dài vòng đời sản phẩm</b>, <b>hạn chế chất thải</b> và <b>giảm tác động xấu đến môi trường</b>.</p>",
+"k": "kinh tế tuần hoàn KTTH định nghĩa Luật BVMT 2020",
+"alt": [
+"KTTH là gì",
+"định nghĩa kinh tế tuần hoàn"
+]
+},
+{
+"c": "c16",
+"q": "World Economic Forum định nghĩa kinh tế tuần hoàn thế nào?",
+"a": "<p>Hệ thống công nghiệp có tính <b>phục hồi, tái tạo</b> theo thiết kế; giảm dùng tài nguyên, cắt giảm chất thải và khí thải carbon; sản phẩm được dùng lâu nhất qua sửa chữa, tái chế, thiết kế lại; hết vòng đời thì vật liệu được giữ lại để tái sử dụng.</p>",
+"k": "World Economic Forum KTTH phục hồi tái tạo",
+"alt": []
+},
+{
+"c": "c16",
+"q": "Kinh tế tuyến tính và kinh tế tuần hoàn khác nhau thế nào?",
+"a": "<ul><li>Cách tiếp cận: <b>khai thác – sản xuất – loại bỏ</b> vs <b>giảm thiểu, tái sử dụng, tái chế, phục hồi</b>.</li><li>Tầm nhìn: lợi nhuận ngắn hạn vs bền vững lâu dài.</li><li>Quan điểm bền vững: giảm thiểu tác động vs tối đa hoá lợi ích môi trường và giá trị tài nguyên.</li><li>Mô hình kinh doanh: lấy sản phẩm làm trung tâm vs hướng tới dịch vụ.</li></ul>",
+"k": "kinh tế tuyến tính tuần hoàn so sánh khác nhau",
+"alt": [
+"kinh tế tuyến tính là gì"
+]
+},
+{
+"c": "c16",
+"q": "Ba nguyên tắc của kinh tế tuần hoàn là gì?",
+"a": "<p>Được thúc đẩy bởi <b>thiết kế</b>: (1) <b>Loại bỏ chất thải và ô nhiễm</b>; (2) <b>Lưu thông sản phẩm, vật tư</b> ở giá trị cao nhất; (3) <b>Tái tạo thiên nhiên</b>. Củng cố bằng chuyển đổi sang năng lượng và vật liệu tái tạo.</p>",
+"k": "nguyên tắc kinh tế tuần hoàn loại bỏ chất thải lưu thông tái tạo",
+"alt": [
+"nguyên tắc KTTH"
+]
+},
+{
+"c": "c16",
+"q": "Các hành động cụ thể của kinh tế tuần hoàn là gì?",
+"a": "<p>Giảm thiểu, tái tạo hệ thống tự nhiên, loại bỏ rác thải và ô nhiễm, kéo dài vòng đời sản phẩm, tái sử dụng, thu hồi, sửa chữa, tân trang, tái chế, năng lượng tái tạo, bảo tồn tài nguyên… hướng tới xã hội tuần hoàn bền vững.</p>",
+"k": "hành động KTTH tái chế tái sử dụng sửa chữa",
+"alt": []
+},
+{
+"c": "c16",
+"q": "Chính sách về kinh tế tuần hoàn ở Việt Nam?",
+"a": "<p>Định nghĩa KTTH ở <b>Điều 142</b> và <b>khoản 11 Điều 5</b> Luật BVMT 2020; tiêu chí, lộ trình, cơ chế phát triển KTTH ở các <b>Điều 138, 139, 140</b> dự thảo Nghị định hướng dẫn. Quốc tế: khung chính sách tiêu dùng và sản xuất bền vững.</p>",
+"k": "chính sách KTTH Điều 142 Luật BVMT",
+"alt": []
+},
+{
+"c": "c16",
+"q": "Vì sao mô hình VAC là kinh tế tuần hoàn?",
+"a": "<p>VAC (Vườn – Ao – Chuồng; VRAC thêm Rừng) có từ 1970–1980: chất thải chuồng làm phân bón vườn và thức ăn cho cá, bùn ao bón vườn, phụ phẩm vườn nuôi gia súc. Vật chất quay vòng, gần như không có rác.</p>",
+"k": "VAC VRAC vườn ao chuồng",
+"alt": [
+"VAC là gì"
+]
+},
+{
+"c": "c16",
+"q": "Khung RESOLVE của Heineken là gì?",
+"a": "<p>RESOLVE = <b>REgenerate</b> (tái tạo) · <b>Share</b> (chia sẻ) · <b>Optimize</b> (tối ưu) · <b>Loop</b> (khép vòng) · <b>Virtualize</b> (số hoá) · <b>Exchange</b> (thay thế).</p>",
+"k": "RESOLVE Heineken",
+"alt": []
+},
+{
+"c": "c16",
+"q": "EPR là gì?",
+"a": "<p>Trách nhiệm mở rộng của nhà sản xuất: nhà sản xuất chịu trách nhiệm <b>thu hồi, tái chế</b> sản phẩm và bao bì sau khi dùng. Ví dụ trong slide: Unilever Việt Nam, Coca-Cola Việt Nam.</p>",
+"k": "EPR trách nhiệm mở rộng nhà sản xuất Unilever Coca-Cola",
+"alt": []
+},
+{
+"c": "c16",
+"q": "Có ví dụ quốc tế nào về kinh tế tuần hoàn?",
+"a": "<ul><li><b>Gomi</b>: loa di động làm từ túi nhựa, chạy bằng pin xe đạp điện cũ.</li><li><b>Goods for Good</b>: quyên góp hàng sản xuất dư thừa cho cộng đồng dễ bị tổn thương.</li><li><b>Young Planet</b>: ứng dụng tặng, nhận đồ trẻ em.</li><li><b>Sân bay Gatwick</b>: sân bay đầu tiên ở Anh đạt chứng nhận Zero Waste to Landfill.</li><li>Ngoài ra: BASF.</li></ul>",
+"k": "ví dụ KTTH Gomi Goods for Good Young Planet Gatwick BASF",
+"alt": []
+},
+{
+"c": "c16",
+"q": "Khoa học Trái Đất đóng vai trò gì trong kinh tế tuần hoàn?",
+"a": "<p>Cho thấy tài nguyên khoáng sản hình thành qua hàng triệu năm, hữu hạn và cần hệ số tập trung cao mới khai thác được; khai thác và dùng năng lượng gắn với phát thải. Vì vậy giảm khai thác mới bằng tái sử dụng, tái chế giúp vừa giữ tài nguyên vừa giảm BĐKH.</p>",
+"k": "vai trò khoa học Trái Đất KTTH tài nguyên",
+"alt": []
+},
+{
+"c": "tong-on",
+"q": "Vòng tuần hoàn đá là gì?",
+"a": "<p>Mỗi loại đá đều có thể trở thành loại khác: magma nguội → <b>đá magma</b>; đá lộ ra bị phong hoá, vận chuyển, lắng đọng, gắn kết → <b>đá trầm tích</b>; đá bị chôn sâu chịu nhiệt, áp suất → <b>đá biến chất</b>; nóng quá thì nóng chảy thành magma.</p>",
+"k": "vòng tuần hoàn đá rock cycle",
+"alt": [
+"chu trình đá"
+]
+},
+{
+"c": "tong-on",
+"q": "Đối lưu xuất hiện ở đâu trong môn học?",
+"a": "<p>Trong <b>manti</b>: dòng đối lưu làm mảng di chuyển (Ch.3). Trong <b>khí quyển</b>: các vòng Hadley, Ferrel, Polar tạo gió (Ch.14). Cả hai: vật chất nóng nhẹ bốc lên, nguội nặng chìm xuống.</p>",
+"k": "đối lưu manti khí quyển",
+"alt": []
+},
+{
+"c": "tong-on",
+"q": "Himalaya liên quan đến những chương nào?",
+"a": "<p>Va chạm lục địa – lục địa (kiến tạo mảng, Ch.3); nén ép tạo nếp uốn và đứt gãy chờm nghịch (biến dạng, Ch.9); nhiệt, áp suất diện rộng gây biến chất khu vực (Ch.7).</p>",
+"k": "Himalaya liên chương",
+"alt": []
+},
+{
+"c": "tong-on",
+"q": "Theo dõi hạt thạch anh từ granite đến quartzite?",
+"a": "<p>Granite kết tinh dưới sâu (Ch.5) → phong hoá: fenspat thành sét, thạch anh bền ở lại (Ch.8) → sông vận chuyển, hạt mài tròn (Ch.11) → lắng đọng, xi măng hoá thành cát kết (Ch.6) → chôn sâu, biến chất thành quartzite (Ch.7).</p>",
+"k": "thạch anh granite cát kết quartzite hành trình",
+"alt": []
+},
+{
+"c": "tong-on",
+"q": "Cần ôn những gì trước khi thi?",
+"a": "<p>Xem trang <a href=\"#/tong-on\">Ôn tập tổng</a>: có sơ đồ liên kết các chương, bảng các cặp dễ nhầm, bảng con số cần thuộc, các ví dụ Việt Nam trong slide và checklist tự đánh dấu.</p>",
+"k": "ôn thi checklist ôn tập",
+"alt": [
+"ôn tập",
+"học gì để thi"
+]
+},
+{
+"c": "c02b",
+"q": "Manti là gì?",
+"a": "<p><b>Manti</b> là lớp nằm giữa vỏ và nhân, dày nhất và chiếm khoảng <b>84% thể tích</b> Trái Đất. Phần trên cùng của manti cùng với vỏ tạo thành <b>thạch quyển</b> rắn, giòn (~100 km); bên dưới là <b>quyển mềm</b> (~100–350 km) nóng, rắn dẻo, nơi các mảng \"trượt\" lên; sâu hơn là <b>manti dưới</b>, rắn do áp suất rất cao.</p>",
+"k": "manti mantle lớp giữa quyển mềm manti dưới 84%",
+"alt": [
+"lớp manti",
+"manti nằm ở đâu"
+]
+},
+{
+"c": "c05",
+"q": "Granite và basalt khác nhau thế nào?",
+"a": "<table><tr><th></th><th>Granite</th><th>Basalt</th></tr><tr><td>Kiểu</td><td>Xâm nhập (nguội chậm dưới sâu)</td><td>Phun trào (nguội nhanh trên mặt)</td></tr><tr><td>Kiến trúc</td><td>Hạt to, thấy rõ tinh thể</td><td>Hạt mịn</td></tr><tr><td>Thành phần</td><td>Felsic: nhiều thạch anh, fenspat; màu sáng</td><td>Mafic: pyroxene, olivine, plagioclase giàu Ca; xanh đen</td></tr><tr><td>Ở đâu</td><td>Thành phần chính của vỏ lục địa</td><td>Đá chủ yếu của vỏ đại dương</td></tr></table><p>Cặp tương đương: granite ↔ rhyolite, gabbro ↔ basalt.</p>",
+"k": "granite basalt so sánh xâm nhập phun trào felsic mafic",
+"alt": [
+"phân biệt granite và basalt",
+"so sánh granite basalt"
+]
+},
+{
+"c": "c10",
+"q": "Nguyên lý kế tục địa tầng là gì?",
+"a": "<p>Do <b>Nicolas Steno</b> (1638–1686) nêu: trong một loạt lớp trầm tích <b>không bị xáo trộn</b>, <b>lớp dưới luôn già hơn lớp trên</b>. Đi kèm là nguyên lý <b>nằm ngang nguyên thuỷ</b>: trầm tích ban đầu lắng thành lớp nằm ngang, nên lớp nghiêng là đã bị biến dạng sau đó.</p>",
+"k": "kế tục địa tầng Steno lớp dưới già hơn chồng chất superposition",
+"alt": [
+"nguyên lý chồng chất",
+"lớp nào già hơn",
+"superposition"
+]
+},
+{
+"c": "c14",
+"q": "Tầng ozone nằm ở đâu và có vai trò gì?",
+"a": "<p>Tầng ozone nằm trong <b>tầng bình lưu</b> (từ trên tầng đối lưu đến khoảng 50 km). Ozone <b>hấp thụ tia cực tím</b> từ Mặt Trời, bảo vệ sự sống, và làm nhiệt độ tầng bình lưu <b>tăng theo độ cao</b>.</p>",
+"k": "ozone ozon tầng bình lưu tia cực tím UV",
+"alt": [
+"tầng ozon",
+"ozone có vai trò gì"
+]
+},
+{
+"c": "c14",
+"q": "Tầng đối lưu cao bao nhiêu và có đặc điểm gì?",
+"a": "<p>Tầng đối lưu là tầng thấp nhất, từ mặt đất lên khoảng <b>12 km</b> (theo hình slide). Nhiệt độ <b>giảm theo độ cao</b>, không khí đối lưu mạnh, và mọi hiện tượng <b>thời tiết</b> (mây, mưa, gió) xảy ra ở đây.</p>",
+"k": "tầng đối lưu troposphere độ cao 12 km",
+"alt": [
+"tầng đối lưu",
+"troposphere"
+]
+}
+]
