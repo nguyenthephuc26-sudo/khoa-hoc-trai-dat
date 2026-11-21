@@ -9,6 +9,7 @@ Web tĩnh, không cần máy chủ. Nội dung soạn từ slide bài giảng c�
 | `index.html`, `assets/` | Khung web, giao diện, chatbot, tìm kiếm |
 | `chapters/` | 16 chương diễn giải chi tiết + `tong-on.html` (Ôn tập tổng) |
 | `data/qa.json` | 230 câu hỏi đáp cho trợ lý (có thể thêm câu mới) |
+| `data/quiz.json` | Ngân hàng 460 câu trắc nghiệm từ 4 bài LMS cho mục Ôn luyện |
 | `img/slides/` | Hình trích từ slide |
 | `manifest.webmanifest`, `sw.js` | Cho phép cài thành app trên điện thoại và học offline |
 

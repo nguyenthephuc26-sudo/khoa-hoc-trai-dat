@@ -100,13 +100,14 @@
     const [path, qs] = h.split('?');
     const parts = path.split('/');
     document.body.classList.toggle('on-chat-page', parts[0] === 'hoi-dap');
+    document.body.classList.remove('qz-running');
     $('.read-bar') && $('.read-bar').remove();
     try {
       if (!path) renderHome();
       else if (parts[0] === 'c' && byId[parts[1]]) await renderChapter(parts[1], parts[2]);
       else if (parts[0] === 'lo-trinh') renderPlan();
       else if (parts[0] === 'hoi-dap') renderChatPage(new URLSearchParams(qs || '').get('q'));
-      else if (parts[0] === 'on-tap') renderQuiz();
+      else if (parts[0] === 'on-tap') await renderQuiz();
       else if (parts[0] === 'tong-on') await renderReview();
       else if (parts[0] === 'tim-kiem') renderSearch(new URLSearchParams(qs || '').get('q') || '');
       else renderHome();
@@ -228,15 +229,231 @@
   lb.addEventListener('click', e => { if (e.target.tagName !== 'IMG') lb.hidden = true; });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') { lb.hidden = true; } });
 
-  /* ---------- Ôn luyện (chờ đề cũ) ---------- */
-  function renderQuiz() {
+  /* ---------- Ôn luyện: ngân hàng đề từ các bài trắc nghiệm LMS ---------- */
+  let QZ = null;
+  async function loadQuiz() {
+    if (QZ) return QZ;
+    const r = await fetch('data/quiz.json');
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    QZ = await r.json();
+    QZ.byId = {};
+    QZ.forEach(d => d.qs.forEach(q => { q.id = d.id + '-' + q.n; q.did = d.id; QZ.byId[q.id] = q; }));
+    return QZ;
+  }
+  const qzOpt = () => Object.assign({ mode: 'luyen', shufQ: true, shufO: false }, store.get('khtd-qz-opt', {}));
+  const qzWrong = () => new Set(store.get('khtd-qz-wrong', []));
+  const qzBest = () => store.get('khtd-qz-best', {});
+  const LET = 'ABCDEFGH';
+  function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+  const runGet = () => { try { return JSON.parse(sessionStorage.getItem('khtd-qz-run') || 'null'); } catch (e) { return null; } };
+  const runSave = r => { try { r ? sessionStorage.setItem('khtd-qz-run', JSON.stringify(r)) : sessionStorage.removeItem('khtd-qz-run'); } catch (e) { } };
+  const deName = id => { const d = QZ.find(x => x.id === id); return d ? d.t.replace('Bài trắc nghiệm', 'Đề') : id; };
+
+  async function renderQuiz() {
     document.title = 'Ôn luyện · KHTĐ';
-    view.innerHTML = `<span class="kicker"><span>Ôn luyện</span></span><h1>Ngân hàng đề & chế độ ôn luyện</h1>
-    <div class="empty"><p style="font-size:40px;margin:0">📝</p><p><b>Phần này đang chờ đề cũ.</b><br>Khi có các đề thi, đề luyện tập cũ, ngân hàng câu hỏi trắc nghiệm sẽ được soạn và gắn vào đây, có chế độ luyện theo chương, thi thử tính giờ và xem lại câu sai.</p></div>
-    <h2>Trong lúc chờ, bạn có thể</h2>
-    <ul><li>Làm phần <b>Tự kiểm tra</b> ở cuối mỗi chương (bấm vào câu hỏi để xem đáp án).</li>
-    <li>Hỏi <a href="#/hoi-dap">trợ lý</a> những câu bạn hay nhầm.</li>
-    <li>Dùng <a href="#/tong-on">Ôn tập tổng</a> và checklist trước khi thi.</li></ul>`;
+    view.innerHTML = '<p class="loading">Đang tải ngân hàng đề…</p>';
+    await loadQuiz();
+    const run = runGet();
+    if (run && run.items && !run.finished && run.items.every(it => QZ.byId[it.id])) return qzLanding(run);
+    qzLanding(null);
+  }
+
+  function qzLanding(pending) {
+    document.body.classList.remove('qz-running');
+    const opt = qzOpt(), wrong = qzWrong(), best = qzBest();
+    const usable = QZ.flatMap(d => d.qs.filter(q => q.a != null));
+    const unknown = QZ.flatMap(d => d.qs.filter(q => q.a == null));
+    const wrongN = [...wrong].filter(id => QZ.byId[id] && QZ.byId[id].a != null).length;
+    const deCard = d => {
+      const n = d.qs.filter(q => q.a != null).length, b = best[d.id];
+      return `<div class="qz-de"><div class="n">${escapeHtml(d.t)}</div><b>${escapeHtml(d.d)}</b>
+        <small>${n} câu${b ? ` · tốt nhất <b class="qz-best">${b.s}/${b.n}</b>` : ''}</small>
+        ${b ? `<div class="bar"><i style="width:${Math.round(100 * b.s / b.n)}%"></i></div>` : ''}
+        <div class="qz-de-act"><button class="btn primary" data-start="de:${d.id}">Làm cả đề</button><button class="btn" data-start="de:${d.id}:20">20 câu ngẫu nhiên</button></div></div>`;
+    };
+    view.innerHTML = `<span class="kicker"><span>Ôn luyện</span></span><h1>Ngân hàng đề & ôn luyện</h1>
+      <p class="lead">${usable.length} câu từ 4 bài trắc nghiệm trên LMS của môn. Đáp án lấy theo kết quả chấm của LMS. Những câu LMS chấm sai đã được tìm lại đáp án đúng bằng cách đối chiếu slide.</p>
+      ${pending ? `<div class="box note qz-resume"><b>Bạn đang làm dở:</b> ${escapeHtml(pending.title)} (đã làm ${pending.items.filter(i => i.pick != null).length}/${pending.items.length} câu).
+        <div class="qz-de-act"><button class="btn primary" data-resume>Làm tiếp</button><button class="btn" data-drop>Bỏ bài này</button></div></div>` : ''}
+      <div class="qz-settings" role="group" aria-label="Cách làm bài">
+        <div class="qz-seg" role="radiogroup" aria-label="Chế độ">
+          <button role="radio" aria-checked="${opt.mode === 'luyen'}" data-mode="luyen"><b>Luyện tập</b><small>Hiện đáp án ngay sau mỗi câu</small></button>
+          <button role="radio" aria-checked="${opt.mode === 'thi'}" data-mode="thi"><b>Thi thử</b><small>Tính giờ, chấm điểm khi nộp bài</small></button>
+        </div>
+        <label class="qz-tg"><input type="checkbox" id="qzShufQ" ${opt.shufQ ? 'checked' : ''}> Đảo thứ tự câu hỏi</label>
+        <label class="qz-tg"><input type="checkbox" id="qzShufO" ${opt.shufO ? 'checked' : ''}> Đảo thứ tự đáp án</label>
+      </div>
+      <h2>Trộn nhanh</h2>
+      <div class="qz-quick">
+        <div class="qz-de"><div class="n">Cả 4 đề</div><b>Đề ngẫu nhiên từ toàn bộ ngân hàng</b><small>Giống bài thi tổng hợp, câu lấy đều từ các phần.</small>
+          <div class="qz-de-act"><button class="btn primary" data-start="mix:30">30 câu</button><button class="btn" data-start="mix:60">60 câu</button><button class="btn" data-start="mix:100">100 câu</button></div></div>
+        <div class="qz-de"><div class="n">Sổ câu sai</div><b>Ôn lại những câu bạn từng làm sai</b><small>${wrongN ? `${wrongN} câu. Làm đúng thì câu đó tự rời khỏi sổ.` : 'Chưa có câu nào. Làm bài xong, câu sai sẽ được lưu ở đây.'}</small>
+          <div class="qz-de-act"><button class="btn ${wrongN ? 'primary' : ''}" data-start="sai" ${wrongN ? '' : 'disabled'}>Ôn ${wrongN ? wrongN + ' ' : ''}câu sai</button></div></div>
+      </div>
+      <h2>Theo từng đề</h2>
+      <div class="qz-grid">${QZ.map(deCard).join('')}</div>
+      ${unknown.length ? `<details class="qz-unk"><summary>${unknown.length} câu chưa rõ đáp án (không đưa vào bài làm)</summary>
+        ${unknown.map(q => `<div class="qz-unk-i"><small>${deName(q.did)} · Câu ${q.n}</small><p>${escapeHtml(q.q)}</p><p class="src">Phương án đã bị LMS chấm sai: <s>${escapeHtml(q.o[q.x])}</s>. ${escapeHtml(q.note || '')}</p></div>`).join('')}</details>` : ''}
+      <p class="src">Mẹo: khi làm bài có thể bấm phím 1–4 (hoặc A–D) để chọn đáp án và Enter để sang câu tiếp.</p>`;
+
+    $$('[data-mode]', view).forEach(b => b.addEventListener('click', () => { store.set('khtd-qz-opt', Object.assign(qzOpt(), { mode: b.dataset.mode })); $$('[data-mode]', view).forEach(x => x.setAttribute('aria-checked', x === b)); }));
+    $('#qzShufQ').addEventListener('change', e => store.set('khtd-qz-opt', Object.assign(qzOpt(), { shufQ: e.target.checked })));
+    $('#qzShufO').addEventListener('change', e => store.set('khtd-qz-opt', Object.assign(qzOpt(), { shufO: e.target.checked })));
+    $$('[data-start]', view).forEach(b => b.addEventListener('click', () => qzStart(b.dataset.start)));
+    const rs = $('[data-resume]', view); if (rs) rs.addEventListener('click', () => qzRun(pending));
+    const dr = $('[data-drop]', view); if (dr) dr.addEventListener('click', () => { runSave(null); qzLanding(null); });
+  }
+
+  function qzStart(spec) {
+    const opt = qzOpt();
+    const [kind, a, b] = spec.split(':');
+    let pool, title, full = null;
+    if (kind === 'de') {
+      const d = QZ.find(x => x.id === a);
+      pool = d.qs.filter(q => q.a != null);
+      if (b) { pool = shuffle(pool).slice(0, +b); title = `${deName(a)} · ${b} câu ngẫu nhiên`; }
+      else { title = d.t; full = a; }
+    } else if (kind === 'mix') {
+      // lấy đều từ 4 đề
+      const n = +a, per = QZ.map(d => shuffle(d.qs.filter(q => q.a != null)));
+      pool = []; let i = 0;
+      while (pool.length < n && per.some(p => p.length)) { const p = per[i++ % per.length]; if (p.length) pool.push(p.pop()); }
+      title = `Đề trộn ${n} câu`;
+    } else {
+      const w = qzWrong();
+      pool = [...w].map(id => QZ.byId[id]).filter(q => q && q.a != null);
+      title = `Sổ câu sai (${pool.length} câu)`;
+    }
+    if (!(kind === 'de' && !b && !opt.shufQ)) pool = shuffle(pool);
+    const run = {
+      title, full, mode: opt.mode, start: Date.now(), cur: 0, finished: false,
+      items: pool.map(q => ({ id: q.id, ord: opt.shufO && !q.o.every(x => /^(Đúng|Sai)$/.test(x)) ? shuffle(q.o.map((_, i) => i)) : q.o.map((_, i) => i), pick: null }))
+    };
+    runSave(run); qzRun(run);
+  }
+
+  function qzRun(run) {
+    const exam = run.mode === 'thi';
+    const total = run.items.length;
+    document.body.classList.add('qz-running');
+    view.innerHTML = `<div class="qz-run">
+      <div class="qz-top"><div><span class="kicker"><span>${exam ? 'Thi thử' : 'Luyện tập'}</span></span><h1 class="qz-title">${escapeHtml(run.title)}</h1></div>
+        <button class="btn" data-exit>Tạm dừng</button></div>
+      <div class="qz-meta"><span id="qzPos"></span><span id="qzInfo"></span></div>
+      <div class="bar qz-bar"><i id="qzBar"></i></div>
+      <div id="qzCard" class="qz-card" aria-live="polite"></div>
+      <div class="qz-nav"><button class="btn" id="qzPrev">← Câu trước</button><button class="btn primary" id="qzNext">Câu tiếp →</button></div>
+      ${exam ? `<details class="qz-map" open><summary>Bảng câu hỏi</summary><div id="qzMap"></div></details><div class="qz-submit"><button class="btn done" id="qzSubmit">Nộp bài</button><span id="qzSubNote" class="src"></span></div>` : ''}
+    </div>`;
+    let timer = null;
+    const save = () => runSave(run);
+    const it = () => run.items[run.cur];
+    const answered = () => run.items.filter(x => x.pick != null).length;
+    const correctN = () => run.items.filter(x => x.pick != null && x.pick === QZ.byId[x.id].a).length;
+    function info() {
+      if (exam) {
+        const s = Math.floor((Date.now() - run.start) / 1000);
+        $('#qzInfo').textContent = `⏱ ${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')} · đã làm ${answered()}/${total}`;
+      } else $('#qzInfo').textContent = `Đúng ${correctN()}/${answered()}`;
+    }
+    function draw() {
+      const x = it(), q = QZ.byId[x.id];
+      const locked = !exam && x.pick != null;
+      $('#qzPos').textContent = `Câu ${run.cur + 1}/${total}`;
+      $('#qzBar').style.width = (100 * (exam ? answered() : run.cur + (locked ? 1 : 0)) / total) + '%';
+      $('#qzCard').innerHTML = `<small class="qz-src">${deName(q.did)} · Câu ${q.n}</small>
+        <p class="qz-q">${escapeHtml(q.q)}</p>
+        <div class="qz-opts" role="radiogroup" aria-label="Các phương án">${x.ord.map((oi, k) => {
+          let cls = '';
+          if (locked) cls = oi === q.a ? ' ok' : (oi === x.pick ? ' bad' : ' dim');
+          else if (x.pick === oi) cls = ' sel';
+          return `<button class="qz-o${cls}" role="radio" aria-checked="${x.pick === oi}" data-o="${oi}" ${locked ? 'aria-disabled="true"' : ''}><span class="qz-l">${LET[k]}</span><span>${escapeHtml(q.o[oi])}</span></button>`;
+        }).join('')}</div>
+        ${locked ? `<div class="box ${x.pick === q.a ? 'remember' : 'note'} qz-fb"><b>${x.pick === q.a ? '✓ Chính xác!' : '✗ Chưa đúng.'}</b> Đáp án: <b>${LET[x.ord.indexOf(q.a)]}. ${escapeHtml(q.o[q.a])}</b>${q.note ? `<br><span class="src">${escapeHtml(q.note)}</span>` : ''}</div>` : ''}`;
+      $$('.qz-o', $('#qzCard')).forEach(b => b.addEventListener('click', () => pick(+b.dataset.o)));
+      $('#qzPrev').disabled = run.cur === 0;
+      const last = run.cur === total - 1;
+      $('#qzNext').textContent = last ? (exam ? 'Xem lại bảng câu hỏi ↓' : 'Xem kết quả') : 'Câu tiếp →';
+      $('#qzNext').disabled = !exam && x.pick == null;
+      if (exam) {
+        $('#qzMap').innerHTML = run.items.map((y, i) => `<button class="qz-cell${y.pick != null ? ' done' : ''}${i === run.cur ? ' cur' : ''}" data-go="${i}" aria-label="Câu ${i + 1}">${i + 1}</button>`).join('');
+        $$('[data-go]', $('#qzMap')).forEach(b => b.addEventListener('click', () => { run.cur = +b.dataset.go; save(); draw(); }));
+        $('#qzSubNote').textContent = answered() < total ? `Còn ${total - answered()} câu chưa làm.` : 'Đã làm hết, có thể nộp bài.';
+      }
+      info();
+    }
+    function pick(oi) {
+      const x = it();
+      if (!exam && x.pick != null) return;
+      x.pick = oi; save(); draw();
+    }
+    function next() {
+      if (!exam && it().pick == null) return;
+      if (run.cur < total - 1) { run.cur++; save(); draw(); window.scrollTo({ top: 0 }); }
+      else if (!exam) finish();
+      else $('#qzMap').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    function finish() {
+      clearInterval(timer); document.removeEventListener('keydown', onKey);
+      run.finished = true; run.end = Date.now(); save();
+      // cập nhật sổ câu sai và điểm tốt nhất
+      const w = qzWrong();
+      run.items.forEach(x => { const q = QZ.byId[x.id]; if (x.pick == null) return; if (x.pick === q.a) w.delete(x.id); else w.add(x.id); });
+      store.set('khtd-qz-wrong', [...w]);
+      const s = correctN();
+      if (run.full) { const b = qzBest(); if (!b[run.full] || s > b[run.full].s) { b[run.full] = { s, n: total, t: run.end }; store.set('khtd-qz-best', b); } }
+      qzResult(run);
+    }
+    function onKey(e) {
+      if (!document.body.contains($('#qzCard'))) { document.removeEventListener('keydown', onKey); clearInterval(timer); return; }
+      if (e.target.closest('input, textarea, .chat-panel')) return;
+      const k = e.key.toUpperCase(); let idx = -1;
+      if (/^[1-8]$/.test(k)) idx = +k - 1; else if (/^[A-H]$/.test(k)) idx = LET.indexOf(k);
+      if (idx >= 0 && idx < it().ord.length) { e.preventDefault(); pick(it().ord[idx]); }
+      else if (e.key === 'Enter' && !e.target.closest('button')) { e.preventDefault(); next(); }
+      else if (e.key === 'ArrowRight') next();
+      else if (e.key === 'ArrowLeft' && run.cur > 0) { run.cur--; save(); draw(); }
+    }
+    document.addEventListener('keydown', onKey);
+    $('#qzPrev').addEventListener('click', () => { if (run.cur > 0) { run.cur--; save(); draw(); } });
+    $('#qzNext').addEventListener('click', next);
+    $('[data-exit]').addEventListener('click', () => { clearInterval(timer); document.removeEventListener('keydown', onKey); qzLanding(run); window.scrollTo(0, 0); });
+    if (exam) {
+      timer = setInterval(() => { if (!$('#qzInfo')) return clearInterval(timer); info(); }, 1000);
+      $('#qzSubmit').addEventListener('click', () => {
+        const left = total - answered();
+        if (left && !$('#qzSubmit').dataset.sure) { $('#qzSubmit').dataset.sure = 1; $('#qzSubmit').textContent = `Vẫn nộp (bỏ trống ${left} câu)`; return; }
+        finish();
+      });
+    }
+    draw();
+  }
+
+  function qzResult(run) {
+    document.body.classList.remove('qz-running');
+    const total = run.items.length;
+    const res = run.items.map(x => ({ x, q: QZ.byId[x.id] }));
+    const ok = res.filter(r => r.x.pick === r.q.a).length;
+    const wrong = res.filter(r => r.x.pick !== r.q.a);
+    const pct = Math.round(100 * ok / total), sec = Math.round((run.end - run.start) / 1000);
+    const msg = pct >= 90 ? 'Rất tốt! Bạn nắm chắc phần này.' : pct >= 70 ? 'Khá ổn. Ôn lại các câu sai bên dưới là chắc.' : 'Cần ôn thêm. Xem lại các câu sai và đọc lại chương liên quan.';
+    view.innerHTML = `<span class="kicker"><span>Kết quả</span></span><h1>${escapeHtml(run.title)}</h1>
+      <div class="qz-score"><div class="qz-ring" style="--p:${pct}"><b>${ok}/${total}</b><small>${pct}%</small></div>
+        <div><p><b>${msg}</b></p><p class="src">Điểm hệ 10: <b>${(10 * ok / total).toFixed(2).replace('.', ',')}</b> · Thời gian: ${Math.floor(sec / 60)} phút ${sec % 60} giây${wrong.length ? ` · ${wrong.length} câu sai đã được lưu vào sổ câu sai` : ''}</p>
+        <div class="qz-de-act">${wrong.length ? '<button class="btn primary" data-redo>Làm lại các câu sai</button>' : ''}<button class="btn" data-back>Về trang ôn luyện</button></div></div></div>
+      ${wrong.length ? `<h2>Các câu sai (${wrong.length})</h2>` + wrong.map(({ x, q }) => `<div class="qz-rev">
+        <small class="qz-src">${deName(q.did)} · Câu ${q.n}</small><p class="qz-q">${escapeHtml(q.q)}</p>
+        ${x.pick != null ? `<p class="qz-your">✗ Bạn chọn: ${escapeHtml(q.o[x.pick])}</p>` : '<p class="qz-your">— Bỏ trống</p>'}
+        <p class="qz-right">✓ Đáp án: ${escapeHtml(q.o[q.a])}</p>${q.note ? `<p class="src">${escapeHtml(q.note)}</p>` : ''}</div>`).join('') : '<div class="box remember"><b>Không sai câu nào!</b></div>'}`;
+    $('[data-back]', view).addEventListener('click', () => { runSave(null); qzLanding(null); window.scrollTo(0, 0); });
+    const rd = $('[data-redo]', view);
+    if (rd) rd.addEventListener('click', () => {
+      const opt = qzOpt();
+      const r2 = { title: run.title.replace(/^(Làm lại câu sai · )?/, 'Làm lại câu sai · '), full: null, mode: opt.mode, start: Date.now(), cur: 0, finished: false,
+        items: shuffle(wrong.map(({ x }) => ({ id: x.id, ord: x.ord, pick: null }))) };
+      runSave(r2); qzRun(r2); window.scrollTo(0, 0);
+    });
+    window.scrollTo(0, 0);
   }
 
   /* ---------- Tìm kiếm toàn bộ bài học ---------- */

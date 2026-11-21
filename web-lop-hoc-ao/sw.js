@@ -1,7 +1,7 @@
 /* Service worker: cho phép cài app và học offline */
-const VERSION = 'khtd-v1';
+const VERSION = 'khtd-v2';
 const SHELL = [
-  './', 'index.html', 'assets/style.css', 'assets/app.js', 'manifest.webmanifest', 'data/qa.json', 'data/assets.json',
+  './', 'index.html', 'assets/style.css', 'assets/app.js', 'manifest.webmanifest', 'data/qa.json', 'data/quiz.json', 'data/assets.json',
   'img/icons/icon-192.png', 'img/icons/icon-512.png', 'img/icons/favicon-64.png',
   'chapters/c01.html', 'chapters/c02b.html', 'chapters/c02a.html', 'chapters/c03.html', 'chapters/c04.html',
   'chapters/c05.html', 'chapters/c06.html', 'chapters/c07.html', 'chapters/c08.html', 'chapters/c09.html',
